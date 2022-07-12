@@ -4,7 +4,7 @@ metaDate: 'July 12, 2022'
 date: 2022-07-12
 # tags: ['How to Use']
 color: '#90ffff'
-image: 'https://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg'
+image: 'https://us-east-1.linodeobjects.com/kinopio-uploads/zmcFSvLiYP8rCm9JqwOMK/garden-800px-1.jpg'
 ---
 
 The Kinopio blog is open for business. Relive memories of email bulletins past, and subscribe for bulletins to come. Possibly other things too.
