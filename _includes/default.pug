@@ -1,7 +1,5 @@
 ---
-pageTitle: Kinopio Help
-pageSearchIsVisible: true
-currentPage: help
+pageTitle: Kinopio Blog
 showFooter: true
 ---
 html(lang="en" style='background-color:' + backgroundColor)
@@ -23,13 +21,6 @@ html(lang="en" style='background-color:' + backgroundColor)
 
       include nav.pug
 
-      if pageSearchIsVisible
-        .search
-          form
-            img#search(src="/assets/search.svg")
-            input(placeholder="Search")
-            img#remove.remove(src="/assets/add.svg")
-
       main(class=pageClass) !{content}
       if showFooter
         include footer.pug
@@ -48,8 +39,6 @@ html(lang="en" style='background-color:' + backgroundColor)
     canvas.auto-paint#canvas-mobile-right
     canvas.auto-paint#canvas-cta-bottom
 
-  script(src="/assets/js/fuzzy-min.js")
-  script(src="/assets/js/search.js")
   script(src="/assets/js/magic-paint.js")
   if pageTitle === 'About Kinopio'
     script(src="/assets/js/recorded-strokes.js")

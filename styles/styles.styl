@@ -1,11 +1,11 @@
 :root
-  --primary black
-  --primary-background white
+  --primary #20411d
+  --primary-background #e8eede
 
   // --secondary #666
   --secondary-background #e3e3e3
-  --secondary-hover-background #d8d8d8
-  --secondary-active-background #cdcdcd
+  --secondary-hover-background #c9e6c7
+  --secondary-active-background #abd4a5
 
   --light-shadow rgba(0,0,0,0.20)
   --heavy-shadow rgba(0,0,0,0.25)
@@ -31,13 +31,13 @@
   // help site vars
   --max-page-width 520px
   --page-margin 20px
-  --page-background #dbdbdb // #e8eadf
+  --page-background #e8eede
   --code-background #c8c8c8
   --table-border #c5c5c5
   --table-hover-background rgba(0,0,0,0.05)
   --cta-background #67ffbb
   --sans-serif Helvetica Neue, Helvetica, Arial, sans-serif
-  --tertiary #c4c4c4
+  --tertiary #c4e7d6
 
 // Elements
 
@@ -88,14 +88,13 @@ body
   padding 0
 
 .logo
-  background-image url('/assets/logo-base.png')
+  background-image url('/assets/logo-patch.png')
   background-size contain
   background-repeat no-repeat
-  width 50px
-  height 42px
-  vertical-align -13px
-  margin-right 12px
-  display inline-block
+  width 66px
+  height 55px
+  // margin-left -25px
+  margin-bottom 6px
 
 .hidden
   display none !important
@@ -322,11 +321,6 @@ header
     &:hover,
     &:focus
       text-decoration underline
-      .logo
-        background-image url('/assets/logo-hover.png')
-    &:active
-      .logo
-        background-image url('/assets/logo-active.png')
 
 .search
   display flex
