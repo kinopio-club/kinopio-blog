@@ -1,7 +1,9 @@
 ---
 title: Welcome Friends
+metaDate: 'July 12, 2022'
 # tags: ['How to Use']
 color: '#90ffff'
+image: 'http://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg'
 ---
 
 the blog is open for business, it'll hold email bulletins for now

@@ -2,5 +2,11 @@
 layout: default.pug
 ---
 
-h1 #{title}
-span !{content}
+article
+  h1 #{title}
+  img.icon.updated(src="/assets/updated.gif")
+  span #{metaDate}
+
+  .article-content
+    hr
+    span !{content}
