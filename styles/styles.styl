@@ -186,7 +186,7 @@ ul
     a
       color var(--primary)
       text-decoration none
-      background var(--info-background)
+      background var(--info-background) // tertiary
       padding 4px 5px
       border-radius 3px
       box-shadow var(--badge-shadow)
@@ -423,100 +423,8 @@ img + h2,
 video + h2
   margin-top 1.5rem
 
-ul.api-contents
-  margin-top 1rem
-  padding 0
-  margin-left 0
-  margin-right 0
-  position sticky
-  top 20px
-  z-index 10
-  li
-    list-style none
-    display inline-block
-    margin-right 6px
-
-.api,
-.guides
-  h2
-    font-family Recoleta
-    font-size 26px
-    font-weight normal
-  h2,
-  h3
-    &.badge
-      display inline-block
-      padding 4px 5px
-      border-radius 3px
-      font-family sans-serif
-      font-size 16px
-      font-weight bold
-      margin-bottom 0
-      box-shadow none
-  .badge.all
-    margin-top 0
-
-  code
-    line-height 1.2
-
-  // colors should match api.pug
-  .all,
-  .users,
-  .spaces,
-  .cards,
-  .connections,
-  .connection-types,
-  .tags,
-  .notifications
-    color var(--primary)
-    padding 2px 5px
-  .all
-    background khaki
-  .users
-    background #b9a8ff
-  .spaces
-    background pink
-  .cards
-    background violet
-  .connections
-    background salmon
-  .connection-types
-    background burlywood
-  .tags
-    background mediumaquamarine
-  .notifications
-    background darkseagreen
-
-  .get-label,
-  .post-label,
-  .patch-label
-  .delete-label
-    color rgba(255,255,255,0.9)
-  .get-label
-    background forestgreen
-  .post-label
-    background blueviolet
-  .patch-label
-    background peru
-  .delete-label
-    background firebrick
-
-.anchor
-  display block
-  position relative
-  top -40px
-  visibility hidden
-
 .froggo
   max-width 60px
-
-.cat
-  max-width 150px
-
-.remove
-  transform rotate(45deg)
-  width 20px
-  padding 5px
 
 .row
   display flex
@@ -524,24 +432,24 @@ ul.api-contents
     margin-right 10px
   margin-bottom 2rem
 
-.moon-phase
-  margin-bottom 0
-
 // posts
 
 .index
   ul
     width 100%
     display flex
+    flex-wrap wrap
   li
-    max-width 25%
-  li + li
-    margin-left 1rem
+    max-width 22%
+    margin-right 1rem
+    @media(max-width 574px)
+      max-width 44%
   .post-wrap
     display block
     padding 12px
     border-radius 6px
     display inline-block
+    min-width 100px
     img
       border-radius 3px
     h2

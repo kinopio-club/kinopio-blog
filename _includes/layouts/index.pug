@@ -30,7 +30,7 @@ section#hello
 
 section#index.index
   ul
-    each post in collections.all
+    each post in collections.all.reverse()
       li
         a.post-wrap(href=post.url style={background: post.data.color})
           - let img = post.data.image
