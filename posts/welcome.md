@@ -1,10 +1,14 @@
 ---
-title: Desktop and Mobile Apps
-tags: ['How to Use']
+title: Welcome Friends
+# tags: ['How to Use']
 color: '#90ffff'
 ---
 
-<img src="/assets/app-icon-mac.png" class="no-shadow" style="width: 100px"/>
+the blog is open for business, it'll hold email bulletins for now
+
+![](http://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg)
+
+<!-- <img src="/assets/app-icon-mac.png" class="no-shadow" style="width: 100px"/>
 
 You can download Kinopio for macOS, Windows, or Linux – or add it to your iOS or Android phone homescreen – by following the instructions in `About → Apps`
 
@@ -19,3 +23,4 @@ The desktop app makes Kinopio easier to open and create spaces without having to
 The desktop app supports tabs and page refreshing like a web browser. It also gives you more control over the size of your window to let you keep your tasks visible while you work.
 
 ![](https://kinopio-updates.us-east-1.linodeobjects.com/kinopio-app-small.png)
+ -->

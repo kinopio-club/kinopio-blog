@@ -2,28 +2,24 @@
 layout: default.pug
 ---
 
-mixin posts(collection)
-  - let titles = ''
-  each post in collections[collection]
-    - titles = titles + ',' + post.data.title
-  // Title
-  h2(data-posts=titles) #{collection}
-  //- Posts
-  ul
-    each post in collections[collection]
-      li(data-title=post.data.title)
-        a(href=post.url style={background: post.data.color})
-          span #{post.data.title}
+// mixin posts(collection)
+//   - let titles = ''
+//   each post in collections[collection]
+//     - titles = titles + ',' + post.data.title
+//   // Title
+//   h2(data-posts=titles) #{collection}
+//   //- Posts
+//   ul
+//     each post in collections[collection]
+//       li(data-title=post.data.title)
+//         a(href=post.url style={background: post.data.color})
+//           span #{post.data.title}
 
 section#hello
-  p
-    a(href="https://kinopio.club") Kinopio
-    span &nbsp;is your spatial thinking tool for new ideas and hard problems.
-  p Get your thoughts out and visually connect them together. Kinopio works the way your mind works.
 
-  // .row
-  //   a(href="/about")
-  //     button About →
+  p
+    img.icon.new(src="/assets/new.gif")
+    span in Kinopio, the thinking tool for new ideas and solving hard problems
 
   //   a(href="https://kinopio.club")
   //     button.button-to-kinopio Kinopio →
@@ -32,8 +28,8 @@ section#hello
 
 
 section#index.index
-  - let collection
-
-  - collection = 'How to Use'
-  +posts(collection)
-
+  ul
+    each post in collections.all
+      li(data-title=post.data.title)
+        a(href=post.url style={background: post.data.color})
+          span #{post.data.title}
