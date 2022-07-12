@@ -1,11 +1,11 @@
 {
-  "name": "kinopio-meta",
+  "name": "kinopio-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx @11ty/eleventy --serve --port=8081",
+    "serve": "npx @11ty/eleventy --serve --port=8082",
     "styles": "nodemon --exec 'stylus ./styles/styles.styl -o ./styles/styles.css'",
     "build": "stylus ./styles/styles.styl -o ./styles/styles.css && npx @11ty/eleventy"
   },
