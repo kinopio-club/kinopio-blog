@@ -2,7 +2,7 @@
 
 # Kinopio Help
 
-![froggo](https://help.kinopio.club/assets/froggo.png)
+![](https://us-east-1.linodeobjects.com/kinopio-uploads/oQnsH9Hb4a6BqA-FbY1M5/front6.webp)
 
 [help.kinopio.club](https://help.kinopio.club)
 
