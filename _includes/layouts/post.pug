@@ -5,7 +5,8 @@ layout: default.pug
 article
   h1 #{title}
   img.icon.updated(src="/assets/updated.gif")
-  span #{metaDate}
+  a(href=page.url)
+    span.post-date #{metaDate}
 
   .article-content
     hr

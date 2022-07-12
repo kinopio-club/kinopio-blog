@@ -16,16 +16,17 @@ layout: default.pug
 //           span #{post.data.title}
 
 section#hello
-
   p
     img.icon.new(src="/assets/new.gif")
     span in Kinopio, the thinking tool for new ideas and solving hard problems
 
-  //   a(href="https://kinopio.club")
-  //     button.button-to-kinopio Kinopio →
-    // a(href="#footer")
-    //   button Contact Support
-
+  .row
+    .button-wrap
+      a(href="/feed.json")
+        button RSS
+    .button-wrap
+      a(href="https://twitter.com/KinopioClub")
+        button Follow @KinopioClub
 
 section#index.index
   ul
@@ -35,3 +36,4 @@ section#index.index
           - let img = post.data.image
           img(src=img)
           h2 #{post.data.title}
+          p.post-date #{post.data.metaDate}
