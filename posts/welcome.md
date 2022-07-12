@@ -4,13 +4,13 @@ metaDate: 'July 12, 2022'
 date: 2022-07-12
 # tags: ['How to Use']
 color: '#90ffff'
-image: 'http://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg'
+image: 'https://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg'
 ---
 
 The Kinopio blog is open for business. Relive memories of email bulletins past, and subscribe for bulletins to come. Possibly other things too.
 
 And if you're new to Kinopio, lie back, drink deep, and catch up on what you've missed.
 
-![](http://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg)
+![](https://communitygarden.southland.institute/media/pages/home/1866610099-1652330756/garden_800px.jpg)
 
 See you around,
