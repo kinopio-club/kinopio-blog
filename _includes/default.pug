@@ -2,13 +2,21 @@
 pageTitle: Kinopio Blog
 showFooter: true
 ---
-html(lang="en" style='background-color:' + backgroundColor)
+html(lang="en")
   head
     title !{title}
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    meta(name="description" content="What's new in Kinopio, the deep work thinking tool for new ideas and hard problems")
+
+    // https://iamjoona.com/blog/seo-tags-in-eleventy/
+    meta(name="description" content=description)
+    meta(name="og:title" content=title)
+    meta(name="og:description" content=description)
+    meta(name="og:image" content=image)
+    meta(name="og:type" content='article')
+
     link(rel="stylesheet" href="/styles/styles.css")
+
   body(style='background-color:' + backgroundColor)
     .content-wrap
       header
