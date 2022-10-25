@@ -469,3 +469,71 @@ video + h2
 
 .post-tag
   margin-right 5px
+
+// guides
+
+.guides
+  aside.info
+    border-radius 5px
+    width 200px
+    margin-top 2em
+    // background-color var(--secondary-background)
+    border 1px solid var(--primary)
+    section
+      padding 8px
+      &.title
+        border-bottom 1px solid var(--primary)
+    p
+      margin 0
+    p + p
+      margin-top 8px
+  .user
+    vertical-align -3px
+  .category
+    display block
+    margin-top 3em
+    margin-bottom 1em
+    .badge
+      display inline-block
+      // margin-bottom 4em
+      box-shadow none
+
+.kinopio-embed
+  height 620px
+  width 100%
+  margin-top 2em
+  margin-bottom 4em
+  border-radius 5px
+  box-shadow var(--hover-shadow)
+  .embed-title
+    border-radius 5px
+    border-bottom-left-radius 0
+    border-bottom-right-radius 0
+    background var(--tertiary)
+    padding 8px 10px
+    .badge
+      display inline
+      box-shadow none
+      margin-left 5px
+  iframe
+    display block
+    border-radius 5px
+    border-top-left-radius 0
+    border-top-right-radius 0
+    height calc(100% - 34px)
+    width 100%
+    border 0
+    background white
+
+.user
+  margin-right 4px
+  background-image url("/assets/anon-avatar.svg")
+  background-repeat no-repeat
+  width 18px
+  height 18px
+  background-color #91ffff
+  border-radius 3px
+  background-position center
+  background-size 65%
+  vertical-align 2px
+  display inline-block
