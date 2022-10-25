@@ -14,9 +14,6 @@ userColor: '#a6fce5'
 spaceName: 🧶 Crochet diary
 spaceUrl: https://kinopio.club/-crochet-diary-4h1bgB0tQ_S2QD7P0Iyp1
 spaceEmbedUrl: https://kinopio.club/embed/?spaceId=4h1bgB0tQ_S2QD7P0Iyp1&zoom=50
-
-# templateEngineOverride: md, pug
-
 ---
 
 
