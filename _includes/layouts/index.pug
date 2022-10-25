@@ -36,4 +36,6 @@ section#index.index
           - let img = post.data.image
           img(src=img)
           h2 #{post.data.title}
-          p.post-date #{post.data.metaDate}
+          if post.data.tags[0]
+            p.post-meta.post-tag #{post.data.tags[0]}
+          p.post-meta #{post.data.metaDate}

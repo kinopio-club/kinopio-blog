@@ -5,8 +5,13 @@ layout: default.pug
 article
   h1 #{title}
   img.icon.updated(src="/assets/updated.gif")
+
+  if tags[0]
+    a(href='/')
+      p.post-meta.post-tag #{tags[0]}
+
   a(href=page.url)
-    span.post-date #{metaDate}
+    span.post-meta #{metaDate}
 
   .article-content
     hr
