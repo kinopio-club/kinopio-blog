@@ -1,12 +1,12 @@
 ---
 title: Team Planning
-image: 'https://us-east-1.linodeobjects.com/kinopio-uploads/4beIktLVjg8NZOAAS1c2q/photo-baignade-vilette.jpg'
+image: 'https://us-east-1.linodeobjects.com/kinopio-uploads/WvzfgyzBKtiSRl9EHY14T/1431564206268.png'
 
 tags: ['Guides']
 
 date: 2022-11-01
 metaDate: 'Nov 1, 2022'
-color: '#fdba9d'
+color: '#91ffff'
 layout: "layouts/guides-post.pug"
 
 userName: Ben Tsai
