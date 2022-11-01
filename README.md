@@ -16,7 +16,7 @@ A simple static [11ty](https://www.11ty.io/docs/usage/) website for [Kinopio](ht
 
 	$ npm run serve
 	$ npm run styles
-	http://localhost:8081
+	http://localhost:8082
 
 ## Create a New Post
 

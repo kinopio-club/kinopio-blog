@@ -14,7 +14,7 @@ userShortName: Arthur
 userUrl: https://twitter.com/arthur_glg
 userColor: '#fcc38e'
 spaceName: RoadMAP
-spaceUrl: https://kinopio.club/roadmap-8T7fT70jptMVhiHrGtZT1
+spaceUrl: https://kinopio.club/8T7fT70jptMVhiHrGtZT1
 spaceEmbedUrl: https://kinopio.club/embed/?spaceId=8T7fT70jptMVhiHrGtZT1&zoom=50
 
 ---
