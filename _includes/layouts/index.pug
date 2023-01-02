@@ -34,7 +34,12 @@ section#index.index
       li
         a.post-wrap(href=post.url style={background: post.data.color})
           - let img = post.data.image
-          img(src=img)
+          - let video = post.data.video
+          if img
+            img(src=img)
+          else if video
+            video(autoplay loop muted playsinline)
+              source(src=video)
           h2 #{post.data.title}
           if post.data.tags[0]
             p.post-meta.post-tag #{post.data.tags[0]}
