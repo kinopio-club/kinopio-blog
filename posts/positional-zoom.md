@@ -37,6 +37,6 @@ One downside though is that you're more likely to lose your position and need a 
 
 <img class="narrow" src="https://kinopio-blog.us-east-1.linodeobjects.com/zoom-left-origin.svg">
 
-`Top-Left` zooming relies on the principles of regular webpage document. But having a viewport inside a page with am origin that changes based on where you zoomed from introduces brain twisting challenges…
+`Top-Left` zooming relies on the principles of regular webpage document. But having a viewport inside a page with an origin that changes based on where you zoomed from introduces brain twisting challenges…
 
 <img class="narrow" src="https://kinopio-blog.us-east-1.linodeobjects.com/zoom-left-origin-zoomed.svg">
