@@ -20,3 +20,13 @@ Requested by people presenting their collaborative Kinopio spaces and plans at w
 </video>
 </p>
 
+## Also,
+
+- Press 'p' to toggle on/off
+- unconnected card connectors are hidden during presentation mode for a cleaner look
+
+<p>
+<video class="" autoplay loop muted playsinline>
+  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/presentation-mode-followup.mp4">
+</video>
+</p>
