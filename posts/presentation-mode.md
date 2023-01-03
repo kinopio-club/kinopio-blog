@@ -3,7 +3,7 @@ title: 'Presentation Mode'
 metaDate: 'Jan 3, 2022'
 date: 2023-01-03
 tags: ["New Stuff"]
-color: '#f3bda2'
+color: '#a9c5a2'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/presentation-mode-thumbnail.png'
 description: Share → Present to hide the Kinopio UI and put the focus solely on your content.
 ---
