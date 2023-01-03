@@ -1,0 +1,22 @@
+---
+title: 'Presentation Mode'
+metaDate: 'Jan 3, 2022'
+date: 2023-01-03
+tags: ["New Stuff"]
+color: '#f3bda2'
+image: 'https://kinopio-blog.us-east-1.linodeobjects.com/presentation-mode-thumbnail.png'
+description: Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces.
+---
+
+`Share → Present` to hide the Kinopio UI and put the focus solely on your content.
+
+Requested by people presenting their collaborative Kinopio spaces and plans at work,
+
+(Also useful as a zen-like 'focus' mode)
+
+<p>
+<video class="wide" autoplay loop muted playsinline>
+  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/presentation-mode.mp4">
+</video>
+</p>
+
