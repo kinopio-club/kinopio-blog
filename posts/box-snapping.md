@@ -29,15 +29,17 @@ As humans we intuitively know when two things are `close` to each other. But pro
 <img class="narrow" src="https://kinopio-blog.us-east-1.linodeobjects.com/box-snap-close-x.svg">
 
 
-Instead, I'm using a combination of proximity (the distance between two matching side points like the center-left side of one box and the center-right side of another), and looking at x or y distance. It ends up looking something like this:
+I'm using a combination of proximity (the distance between two matching side points, such as the center-left side of one box and the center-right side of another), as well as x or y axis distance. It ends up looking something like this:
 
 <img class="narrow" src="https://kinopio-blog.us-east-1.linodeobjects.com/box-snap-snapping%20copy.svg">
 
 - How should I indicate when boxes are close enough to snap together?
 
-In typical design software vertical or horizontal snapping guidelines are used to indicate when you can align things. In the context of Kinopio though, encouraging content to be geometrically aligned or conform to the grid is an anti-goal.
+In typical design software, vertical or horizontal snapping guidelines are used to indicate when you can align things.
 
-In the context of thinking, feeling like things have to be neat and aligned is oppressive. After a couple public [iterations](https://twitter.com/pketh/status/1612907840586260481), I made the sides to be snapped undulate together. It's a very simple ease-in-out animation but I like the impression of *yearning* that the boxes appear to have for each other – it's pretty cool/romantic.
+In the context of Kinopio though, encouraging content to be geometrically aligned or conform to the grid is not the goal. In the context of thinking, feeling like things have to be neat and orderly is oppressive friction.
+
+After a couple public [iterations](https://twitter.com/pketh/status/1612907840586260481), I made the snapping sides of each box undulate together. It's a very simple ease-in-out animation but I like the impression of *yearning* that the boxes appear to have for each other – it's pretty cool/romantic.
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
