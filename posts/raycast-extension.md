@@ -5,7 +5,7 @@ date: 2023-01-18
 tags: ["New Stuff"]
 color: '#44b4de'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/kinopio-inbox-1.png'
-description: Drag boxes close to each other to snap them together.
+description: Quickly capture ideas to your inbox with the Kinopio extension for Raycast.
 ---
 
 Quickly capture ideas to your inbox with the Kinopio extension for [Raycast](https://www.raycast.com/) on macOS
