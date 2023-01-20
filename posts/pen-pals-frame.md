@@ -17,3 +17,5 @@ Sculpted out of plasticine by [cobcris](https://twitter.com/cobcris)
 # Implementation Notes
 
 I didn't realize this when I reached out to him, but unlike the other frames which are 3d modelled using software like Blender, cobcris' art is all hand sculpted from plasticine, giving it a unique texture and depth that works really well in tiny frames.
+
+This is also the first 'dynamic' frame: the wider the card, the more elmeents (i.e. dogs) are displayed. Making frames work visually in a wider range of conditions helps them adapt to your content and not the other way around.
