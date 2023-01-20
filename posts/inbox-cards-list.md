@@ -3,7 +3,7 @@ title: 'Inbox Cards List'
 metaDate: 'Jan 6, 2022'
 date: 2023-01-06
 tags: ["New Stuff"]
-color: '#f3bda2'
+color: '#fdba9c'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/inbox-cards-list-thumbnail-2.png'
 description: The inbox is great for quickly capturing ideas – now it's just as easy to get those cards out of your inbox and into your current space.
 ---
