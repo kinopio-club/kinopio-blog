@@ -13,7 +13,7 @@ The UI for changing space backgrounds has been streamlined to be more direct and
 Applying backgrounds and colored tints are a big part of what lets your spaces reflect your personality
 
 <p>
-<video class="wide" autoplay loop muted playsinline>
+<video class="narrow" autoplay loop muted playsinline>
   <source src="https://kinopio-updates.us-east-1.linodeobjects.com/streamlined-backgrounds.mp4">
 </video>
 </p>
