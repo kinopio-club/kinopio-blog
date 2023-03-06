@@ -3,7 +3,7 @@ title: 'Search All Spaces'
 metaDate: 'Mar 6, 2023'
 date: 2023-03-06
 tags: ["New Stuff"]
-color: '#f5c2cb'
+color: '#febb0b'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/search-all-spaces-small.png'
 description: Forgot which space you put an idea in? Search all spaces for your cards.
 ---
