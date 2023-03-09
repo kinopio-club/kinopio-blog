@@ -3,8 +3,8 @@ title: 'Transparent Color Slider'
 metaDate: 'Mar 9, 2023'
 date: 2023-03-09
 tags: ["New Stuff"]
-color: '#aeb6df'
-image: 'https://kinopio-updates.us-east-1.linodeobjects.com/transparent-color-slider.png'
+color: '#609ea0'
+video: 'https://kinopio-updates.us-east-1.linodeobjects.com/transparent-color-slider.mp4'
 description: More creative controls to get your cards looking *just* right.
 ---
 
