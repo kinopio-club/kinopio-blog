@@ -5,7 +5,7 @@ date: 2023-02-24
 tags: ["New Stuff"]
 color: '#a9c5a2'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/search-backgrounds-thumb.jpeg'
-description: Find the perfect background for the tone of your space.
+description: Find the perfect background for the tone of your space
 ---
 
 Find the perfect background for the tone of your space.

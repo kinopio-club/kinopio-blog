@@ -5,7 +5,7 @@ date: 2023-01-20
 tags: ["New Stuff"]
 color: '#609ea0'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/pen-pals-thumb.png'
-description: The perfect frame for your missives and manifestos.
+description: The perfect frame for your missives and manifestos
 ---
 
 The perfect frame for your missives and manifestos,

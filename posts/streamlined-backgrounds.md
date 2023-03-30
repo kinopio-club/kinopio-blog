@@ -5,7 +5,7 @@ date: 2023-01-29
 tags: ["New Stuff"]
 color: '#e04b29'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/streamlined-backgrounds-thumbnail.png'
-description: The UI for changing space backgrounds has been streamlined to be more direct and intuitive to use.
+description: The UI for changing space backgrounds has been streamlined to be more direct and intuitive to use
 ---
 
 The UI for changing space backgrounds has been streamlined to be more direct and intuitive to use. 

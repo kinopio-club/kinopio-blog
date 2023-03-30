@@ -5,7 +5,7 @@ date: 2023-03-09
 tags: ["New Stuff"]
 color: '#609ea0'
 video: 'https://kinopio-updates.us-east-1.linodeobjects.com/transparent-color-slider.mp4'
-description: More creative controls to get your cards looking *just* right.
+description: More creative controls to get your cards looking *just* right
 ---
 
 More creative controls to get your cards looking *just* right (also works with boxes, and background tint color too)

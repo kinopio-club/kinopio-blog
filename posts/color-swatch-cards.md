@@ -5,7 +5,7 @@ date: 2023-01-04
 tags: ["New Stuff"]
 color: '#f5c2cb'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/color-swatch-cards-2.png'
-description: If a card is named as a color – like `pink` or `#5e978b` – then it'll become that color.
+description: If a card is named as a color – like `pink` or `#5e978b` – then it'll become that color
 ---
 
 If a card is named as a color – like `pink` or `#5e978b` – then it'll become that color.

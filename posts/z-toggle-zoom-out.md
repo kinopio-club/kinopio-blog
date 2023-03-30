@@ -5,7 +5,7 @@ date: 2023-01-07
 tags: ["New Stuff"]
 color: '#febb0b'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/z-toggle-zoom-out-thumbnail.png'
-description: Press Z to instantly zoom all the way out or in. A little feature that gives you big perspective.
+description: Press Z to instantly zoom all the way out or in. A little feature that gives you big perspective
 ---
 
 Press Z to instantly zoom all the way out or in. A little feature that gives you big perspective

@@ -5,7 +5,7 @@ date: 2023-01-11
 tags: ["New Stuff"]
 color: 'coral'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/box-snapping-thumb2.jpeg'
-description: Drag boxes close to each other to snap them together.
+description: Drag boxes close to each other to snap them together
 ---
 
 Drag boxes close to each other to snap them together.

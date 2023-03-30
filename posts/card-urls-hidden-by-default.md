@@ -5,7 +5,7 @@ date: 2023-03-17
 tags: ["New Stuff"]
 color: '#cf8641'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/card-urls-hidden-by-default.png'
-description: When you paste into cards,  URLs are now be hidden by default so that just the preview info displays.
+description: When you paste into cards,  URLs are now be hidden by default so that just the preview info displays
 ---
 
 When you paste into cards,  URLs are now be hidden by default so that just the preview info displays. (When needed, you can use the 'URL' button to show the full URL).

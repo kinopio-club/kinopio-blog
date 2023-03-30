@@ -5,7 +5,7 @@ date: 2023-01-24
 tags: ["New Stuff"]
 color: '#cf8641'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/dark-mode-thumb-small.png'
-description: Whether you're a night owl or into the mysterious and cool, dark mode is here for you.
+description: Whether you're a night owl or into the mysterious and cool, dark mode is here for you
 ---
 
 Whether you're a night owl or into the mysterious and cool, dark mode is here for you.

@@ -5,7 +5,7 @@ date: 2023-03-06
 tags: ["New Stuff"]
 color: '#febb0b'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/search-all-spaces-small.png'
-description: Forgot which space you put an idea in? Search all spaces for your cards.
+description: Forgot which space you put an idea in? Search all spaces for your cards
 ---
 
 🔍 Forgot which space you put an idea in? Search all spaces for your cards.

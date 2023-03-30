@@ -5,7 +5,7 @@ date: 2023-01-02
 tags: ["New Stuff"]
 color: '#efdba8'
 video: 'https://kinopio-updates.us-east-1.linodeobjects.com/positional-zoom-thumbnail.mp4'
-description: Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces.
+description: Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces
 ---
 
 Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces.

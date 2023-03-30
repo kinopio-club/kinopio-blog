@@ -5,7 +5,7 @@ date: 2023-02-13
 tags: ["New Stuff"]
 color: '#efdba8'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/transparent-connections-to-comments-small.png'
-description: Connection lines appear transparent when connected to a comment card.
+description: Connection lines appear transparent when connected to a comment card
 ---
 
 To make it easier for your eye to follow connected ideas in busy spaces, connection lines appear transparent when connected to a comment card.
