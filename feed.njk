@@ -32,7 +32,15 @@
       "url": "{{ absolutePostUrl }}",
       "title": "{{ post.data.title }}",
       "content_html": {% if post.templateContent %}{{ post.templateContent | dump | safe }}{% else %}""{% endif %},
-      "date_published": "{{ post.date | dateToRfc3339 }}"
+      "date_published": "{{ post.date | dateToRfc3339 }}",
+      "summary": "{{ post.data.description }}",
+      "image": "{{  post.data.image }}",
+      "tags": "{{ post.data.tags }}",
+      "_meta": {
+        "image": "{{  post.data.image }}",
+        "video": "{{  post.data.video }}",
+        "color": "{{  post.data.color }}"
+      }
     }
     {% if not loop.last %},{% endif %}
     {%- endfor %}
