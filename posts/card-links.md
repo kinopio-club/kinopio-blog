@@ -3,7 +3,7 @@ title: 'Card Links'
 metaDate: 'May 16, 2023'
 date: 2023-05-16
 tags: ["New Stuff"]
-color: '#44b4de'
+color: '#91ffff'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/pretty-invites.png'
 description: Now every card has it's own URL that you can share with other people directly
 ---
