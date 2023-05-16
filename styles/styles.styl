@@ -447,6 +447,8 @@ video + h2
     border-radius 6px
     display inline-block
     min-width 100px
+    text-decoration none
+    box-shadow var(--badge-shadow)
     img
       border-radius 5px
     video
@@ -456,6 +458,12 @@ video + h2
       margin-top 1rem
       margin-bottom 2px
       font-size 18px
+    &:hover,
+    &:focus
+      box-shadow var(--hover-shadow)
+    &:active,
+    &.active
+      box-shadow var(--button-active-inset-shadow)
 
 hr
   border-top 1px solid var(--primary)
