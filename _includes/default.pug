@@ -8,7 +8,7 @@ html(lang="en")
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
-    // https://iamjoona.com/blog/seo-tags-in-eleventy/
+    //- https://iamjoona.com/blog/seo-tags-in-eleventy/
     meta(name="description" content=description)
     meta(name="og:title" content=title)
     meta(name="og:description" content=description)
@@ -17,6 +17,10 @@ html(lang="en")
 
     link(rel="stylesheet" href="/styles/styles.css")
     script(defer data-domain="blog.kinopio.club" src="https://plausible.io/js/script.js")
+
+    //- rss
+    link(rel="alternate" type="application/rss+xml" href="/feed.xml")
+    link(rel="alternate" type="application/rss+json" href="/feed.json")
 
   body(style='background-color:' + backgroundColor)
     .content-wrap
