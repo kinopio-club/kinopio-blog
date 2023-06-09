@@ -5,7 +5,7 @@ date: 2023-06-09
 tags: ["New Stuff"]
 color: '#e04b29'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/journal-prompt-of-the-day.png'
-description: Now every card has it's own URL that you can share with other people directly
+description: Inspiration and introspective prompts generated each day for your new journal spaces
 ---
 
 “What do I need to do to be the best version of myself?”
