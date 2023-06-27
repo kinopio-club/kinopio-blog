@@ -3,7 +3,7 @@ title: 'Journal Prompt of the Day'
 metaDate: 'Jun 9, 2023'
 date: 2023-06-09
 tags: ["New Stuff"]
-color: '#e04b29'
+color: '#febb0b'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/journal-prompt-of-the-day.png'
 description: Inspiration and introspective prompts generated each day for your new journal spaces
 ---
