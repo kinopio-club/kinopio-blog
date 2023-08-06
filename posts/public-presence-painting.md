@@ -12,7 +12,7 @@ When viewing a public space, your cursor position and paint strokes are broadcas
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/public-presence-painting.mp4">
+  <source src="https://updates.kinopio.club/public-presence-painting.mp4">
 </video>
 </p>
 

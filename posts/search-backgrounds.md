@@ -14,6 +14,6 @@ Find the perfect background for the tone of your space.
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/search-backgrounds.mp4">
+  <source src="https://updates.kinopio.club/search-backgrounds.mp4">
 </video>
 </p>

@@ -14,7 +14,7 @@ Inbox button → Select a Card
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/inbox-cards-list-2.mp4">
+  <source src="https://updates.kinopio.club/inbox-cards-list-2.mp4">
 </video>
 </p>
 

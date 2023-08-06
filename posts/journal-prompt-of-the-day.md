@@ -18,13 +18,13 @@ These are just some of the prompts generated each day for your journal spaces. E
 
 <p>
 <video class="" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/journal-prompt-of-the-day.mp4">
+  <source src="https://updates.kinopio.club/journal-prompt-of-the-day.mp4">
 </video>
 </p>
 
 # Implementation Notes
 
-Daily prompts completely replaces the original [prompt packs](https://kinopio-updates.us-east-1.linodeobjects.com/add-edit-journal-narrow.mp4) feature, launched 2 years ago, which let you manually pick groups of pre-made prompts to randomly add to new journals. The original intent of prompt packs was to add a bit of inspiration and spontaneity to daily journals – particularly for bullet journalers. 
+Daily prompts completely replaces the original [prompt packs](https://updates.kinopio.club/add-edit-journal-narrow.mp4) feature, launched 2 years ago, which let you manually pick groups of pre-made prompts to randomly add to new journals. The original intent of prompt packs was to add a bit of inspiration and spontaneity to daily journals – particularly for bullet journalers.
 
 The new prompt of the day system fixes the issues with prompt packs: 
 

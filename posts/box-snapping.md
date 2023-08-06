@@ -14,7 +14,7 @@ Helpful for building simple grids and tables that you can use for illustrating s
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/box-snapping.mp4">
+  <source src="https://updates.kinopio.club/box-snapping.mp4">
 </video>
 </p>
 

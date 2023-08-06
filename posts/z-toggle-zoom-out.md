@@ -12,7 +12,7 @@ Press Z to instantly zoom all the way out or in. A little feature that gives you
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/z-toggle-zoom-out.mp4">
+  <source src="https://updates.kinopio.club/z-toggle-zoom-out.mp4">
 </video>
 </p>
 
@@ -22,7 +22,7 @@ This replaces the previous minimap feature which was implemented by drawing a re
 
 <p>
 <video class="" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/minimap-small.mp4">
+  <source src="https://updates.kinopio.club/minimap-small.mp4">
 </video>
 </p>
 

@@ -14,7 +14,7 @@ To help with that last step, the redesigned notification system will let you kno
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/notifications-v2.mp4">
+  <source src="https://updates.kinopio.club/notifications-v2.mp4">
 </video>
 </p>
 

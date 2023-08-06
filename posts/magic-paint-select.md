@@ -4,7 +4,7 @@ metaDate: 'Apr 10, 2023'
 date: 2023-04-10
 tags: ["New Stuff"]
 color: 'DarkKhaki'
-video: 'https://kinopio-updates.us-east-1.linodeobjects.com/magic-paint-select-small.mp4'
+video: 'https://updates.kinopio.club/magic-paint-select-small.mp4'
 description: Painting to select cards, boxes, and connections is faster and more responsive
 ---
 
@@ -12,7 +12,7 @@ Painting to select cards, boxes, and connections is faster and more responsive. 
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/magic-paint-select.mp4">
+  <source src="https://updates.kinopio.club/magic-paint-select.mp4">
 </video>
 </p>
 

@@ -4,13 +4,13 @@ metaDate: 'May 16, 2023'
 date: 2023-05-16
 tags: ["New Stuff"]
 color: '#f5c2cb'
-image: 'https://kinopio-updates.us-east-1.linodeobjects.com/pretty-invites.png'
+image: 'https://updates.kinopio.club/pretty-invites.png'
 description: Now every card has it's own URL that you can share with other people directly
 ---
 
 Now every card has it's own URL that you can share with other people directly. Helpful when referencing a specific thought or kicking off a conversation around a specific idea.
 
-<img src="https://kinopio-updates.us-east-1.linodeobjects.com/card-link.png"/>
+<img src="https://updates.kinopio.club/card-link.png"/>
 
 ## Preview and Edit Linked Cards
 
@@ -23,7 +23,7 @@ So what happens if you paste a card link into another card? You'll get a live pr
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/preview-and-edit-linked-cards.mp4">
+  <source src="https://updates.kinopio.club/preview-and-edit-linked-cards.mp4">
 </video>
 </p>
 
@@ -35,7 +35,7 @@ I noticed that people often paste invite URLs into cards to invite collaborators
 
 To make inviting easier, invites in cards now display information about the space so you be more confident about jumping in
 
-<img src="https://kinopio-updates.us-east-1.linodeobjects.com/pretty-invites.png"/>
+<img src="https://updates.kinopio.club/pretty-invites.png"/>
 
 ---
 
@@ -55,7 +55,7 @@ I'm hoping that, because card links are so flexible and approachable, people fin
 
 Most of the development work for this happened over 3+ weeks while I was on vacation in the Phillipines. With all the client-app refactoring and server plumbing involved, this probably wasn't the smartest project to tackle while constrained to a small laptop screen.
 
-<img src="https://kinopio-updates.us-east-1.linodeobjects.com/vacation.jpg"/>
+<img src="https://updates.kinopio.club/vacation.jpg"/>
 
 
 

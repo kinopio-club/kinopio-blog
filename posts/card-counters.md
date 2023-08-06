@@ -12,7 +12,7 @@ Add a numerical count to your cards for voting on ideas, to assign meanings like
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/card-counters.mp4">
+  <source src="https://updates.kinopio.club/card-counters.mp4">
 </video>
 </p>
 

@@ -16,7 +16,7 @@ This can be really helpful for moodboards, where sampled colors can be listed ri
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/color-swatch-cards.mp4">
+  <source src="https://updates.kinopio.club/color-swatch-cards.mp4">
 </video>
 </p>
 

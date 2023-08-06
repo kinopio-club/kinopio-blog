@@ -4,7 +4,7 @@ metaDate: 'Jan 24, 2022'
 date: 2023-01-24
 tags: ["New Stuff"]
 color: '#cf8641'
-image: 'https://kinopio-updates.us-east-1.linodeobjects.com/dark-mode-thumb-small.png'
+image: 'https://updates.kinopio.club/dark-mode-thumb-small.png'
 description: Whether you're a night owl or into the mysterious and cool, dark mode is here for you
 ---
 
@@ -16,7 +16,7 @@ Or press `t` to switch themes
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/dark-mode.mp4">
+  <source src="https://updates.kinopio.club/dark-mode.mp4">
 </video>
 </p>
 

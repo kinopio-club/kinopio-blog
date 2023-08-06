@@ -12,7 +12,7 @@ Bring more of the web into your spaces by pasting in songs, albums, and document
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/embed-any-site.mp4">
+  <source src="https://updates.kinopio.club/embed-any-site.mp4">
 </video>
 </p>
 

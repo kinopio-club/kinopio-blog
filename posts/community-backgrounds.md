@@ -4,7 +4,7 @@ metaDate: 'May 16, 2023'
 date: 2023-05-16
 tags: ["New Stuff"]
 color: '#91ffff'
-video: 'https://kinopio-updates.us-east-1.linodeobjects.com/community-backgrounds.mp4'
+video: 'https://updates.kinopio.club/community-backgrounds.mp4'
 description: Now every card has it's own URL that you can share with other people directly
 ---
 
@@ -14,6 +14,6 @@ One of the first things people do when creating a new space is choosing a backgr
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/community-backgrounds.mp4">
+  <source src="https://updates.kinopio.club/community-backgrounds.mp4">
 </video>
 </p>

@@ -12,7 +12,7 @@ The perfect frame for your missives and manifestos,
 
 Sculpted out of plasticine by [cobcris](https://twitter.com/cobcris)
 
-<img src="https://kinopio-updates.us-east-1.linodeobjects.com/pen-pals-frame.png">
+<img src="https://updates.kinopio.club/pen-pals-frame.png">
 
 # Implementation Notes
 

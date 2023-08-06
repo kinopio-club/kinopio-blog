@@ -14,7 +14,7 @@ Thank you all for the feedback on how you've been using Kinopio so far.
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/card-urls-hidden-by-default.mp4">
+  <source src="https://updates.kinopio.club/card-urls-hidden-by-default.mp4">
 </video>
 </p>
 

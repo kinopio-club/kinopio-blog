@@ -16,7 +16,7 @@ Requested by people presenting their collaborative Kinopio spaces and plans at w
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/presentation-mode.mp4">
+  <source src="https://updates.kinopio.club/presentation-mode.mp4">
 </video>
 </p>
 
@@ -27,6 +27,6 @@ Requested by people presenting their collaborative Kinopio spaces and plans at w
 
 <p>
 <video class="" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/presentation-mode-followup.mp4">
+  <source src="https://updates.kinopio.club/presentation-mode-followup.mp4">
 </video>
 </p>

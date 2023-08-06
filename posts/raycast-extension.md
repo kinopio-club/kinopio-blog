@@ -14,7 +14,7 @@ You can install it from the [Raycast Store](https://www.raycast.com/pirijan/kino
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/raycast-extension.mp4">
+  <source src="https://updates.kinopio.club/raycast-extension.mp4">
 </video>
 </p>
 

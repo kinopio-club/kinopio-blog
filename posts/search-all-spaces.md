@@ -4,7 +4,7 @@ metaDate: 'Mar 6, 2023'
 date: 2023-03-06
 tags: ["New Stuff"]
 color: '#febb0b'
-image: 'https://kinopio-updates.us-east-1.linodeobjects.com/search-all-spaces-small.png'
+image: 'https://updates.kinopio.club/search-all-spaces-small.png'
 description: Forgot which space you put an idea in? Search all spaces for your cards
 ---
 
@@ -12,7 +12,7 @@ description: Forgot which space you put an idea in? Search all spaces for your c
 
 Try it now with with `⌘/ctrl–shift–F`
 
-<img src="https://kinopio-updates.us-east-1.linodeobjects.com/search-all-spaces.png" class="">
+<img src="https://updates.kinopio.club/search-all-spaces.png" class="">
 
 # Implementation Notes
 

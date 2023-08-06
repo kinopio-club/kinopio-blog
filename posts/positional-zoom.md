@@ -4,7 +4,7 @@ metaDate: 'Jan 2, 2022'
 date: 2023-01-02
 tags: ["New Stuff"]
 color: '#efdba8'
-video: 'https://kinopio-updates.us-east-1.linodeobjects.com/positional-zoom-thumbnail.mp4'
+video: 'https://updates.kinopio.club/positional-zoom-thumbnail.mp4'
 description: Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces
 ---
 
@@ -14,7 +14,7 @@ And of course, you can still comfortably add and edit cards while zoomed out –
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/positional-zoom.mp4">
+  <source src="https://updates.kinopio.club/positional-zoom.mp4">
 </video>
 </p>
 

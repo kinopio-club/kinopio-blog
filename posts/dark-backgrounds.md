@@ -14,6 +14,6 @@ When dark mode is enabled, grid backgrounds will display new dark versions
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://kinopio-updates.us-east-1.linodeobjects.com/dark-backgrounds.mp4">
+  <source src="https://updates.kinopio.club/dark-backgrounds.mp4">
 </video>
 </p>
