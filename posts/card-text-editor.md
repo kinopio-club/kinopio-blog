@@ -1,7 +1,7 @@
 ---
 title: 'Card Text Editor'
 metaDate: 'July 25, 2023'
-date: 2023-25-03
+date: 2023-08-10
 tags: ["New Stuff"]
 color: '#a9c5a2'
 image: 'https://kinopio-updates.us-east-1.linodeobjects.com/card-text-editor-thumb.png'
