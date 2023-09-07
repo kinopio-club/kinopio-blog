@@ -20,3 +20,10 @@ Swipe-to-scroll and pinch-to-zoom like you normally would, press and hold to dra
 </video>
 </p>
 
+<img class="icon" style="width:50px; margin-bottom: -10px " src="/assets/updated.gif"/>
+
+You can now read about the [backstory of the app and how it was made](https://pketh.org/kinopio-ios.html)
+
+<a href="https://pketh.org/kinopio-ios.html">
+  <img class="wide" src="https://updates.kinopio.club/ios-app-blog-post.png">
+</a>
