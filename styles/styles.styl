@@ -39,6 +39,9 @@
   --sans-serif Helvetica Neue, Helvetica, Arial, sans-serif
   --tertiary #c4e7d6
 
+  --entity-radius 6px
+  --article-image-radius 12px
+
 // Elements
 
 @font-face
@@ -189,7 +192,7 @@ ul
   text-decoration none
   background var(--info-background)
   padding 4px 5px
-  border-radius 5px
+  border-radius var(--entity-radius)
   box-shadow var(--badge-shadow)
   &:hover,
   &:focus
@@ -208,7 +211,7 @@ button
   margin 0
   border 1px solid var(--primary)
   background-color transparent
-  border-radius 5px
+  border-radius var(--entity-radius)
   cursor pointer
   user-select none
   font-size 14px
@@ -260,12 +263,12 @@ code
   padding 2px
   padding-left 6px
   padding-right 6px
-  border-radius 5px
+  border-radius var(--entity-radius)
   font-family "OsakaMono-Kinopio", monospace
 
 blockquote
   margin 0
-  border-radius 5px
+  border-radius var(--entity-radius)
   padding 8px
   display inline-block
   p
@@ -289,7 +292,7 @@ canvas.auto-paint
 
 .table-wrap
   overflow-x auto
-  border-radius 5px
+  border-radius var(--entity-radius)
 
 table
   border-collapse collapse
@@ -358,7 +361,7 @@ footer
       color var(--primary)
       text-decoration none
       padding 4px 5px
-      border-radius 5px
+      border-radius var(--entity-radius)
       box-shadow var(--badge-shadow)
       &:hover,
       &:focus
@@ -407,7 +410,7 @@ article
   video
     width 420px
     max-width 100%
-    border-radius 10px
+    border-radius var(--article-image-radius)
     margin-bottom 1rem
     &.wide
       width 700px
@@ -444,15 +447,15 @@ video + h2
   .post-wrap
     display block
     padding 12px
-    border-radius 6px
+    border-radius var(--entity-radius)
     display inline-block
     min-width 100px
     text-decoration none
     box-shadow var(--badge-shadow)
     img
-      border-radius 5px
+      border-radius var(--entity-radius)
     video
-      border-radius 5px
+      border-radius var(--entity-radius)
       max-width 100%
     h2
       margin-top 1rem
@@ -489,7 +492,7 @@ hr
 
 .guides
   aside.info
-    border-radius 5px
+    border-radius var(--entity-radius)
     width 200px
     margin-top 2em
     // background-color var(--secondary-background)
@@ -517,10 +520,10 @@ hr
   height 620px
   width 100%
   margin-top 2em
-  border-radius 5px
+  border-radius var(--entity-radius)
   box-shadow var(--hover-shadow)
   .embed-title
-    border-radius 5px
+    border-radius var(--entity-radius)
     border-bottom-left-radius 0
     border-bottom-right-radius 0
     background var(--tertiary)
@@ -531,7 +534,7 @@ hr
       margin-left 5px
   iframe
     display block
-    border-radius 5px
+    border-radius var(--entity-radius)
     border-top-left-radius 0
     border-top-right-radius 0
     height calc(100% - 34px)
@@ -546,7 +549,7 @@ hr
   width 18px
   height 18px
   background-color #91ffff
-  border-radius 5px
+  border-radius var(--entity-radius)
   background-position center
   background-size 65%
   vertical-align 2px
