@@ -35,11 +35,13 @@ Implementing syntax highlighting was not straightforward. Initially, I thought I
 1. Use a robust syntax highlighting library that runs in the browser. Which is the fastest and most-straightforward solution, but these libraries are usually 250kb or more – so significantly larger than the rest of Kinopio (and computationally heavy).
 2. Use that library on the server instead. This would keep the bloat out of the browser, but I'd have to deal with the lag-time between updating code and having it's highlighted syntax. This would also put more strain on the server.
 
-I didn't love either solution but was leaning towards #2 because it kept things fastest for the user.
+I didn't love either solution, but was leaning towards #2 because it kept things fastest for the user. Design is often about choosing the least bad tradeoffs.
 
-Then, I received an email from [David Francisco](https://david.tools/ipfs/QmcmSwqEsgscyHbQ4Vi37dhbUTsefA4qRg78wMqKkxzv3L/), whom I'd once interviewed for a job at Glitch. I'm glad he kept in touch because he gave me a suggestion that led me to [macrolight](https://github.com/xyzshantaram/macrolight), a tiny and not-at-all robust syntax highlighting library. This made me rethink my whole approach.
+Then, I received an email from [David Francisco](https://david.tools/ipfs/QmcmSwqEsgscyHbQ4Vi37dhbUTsefA4qRg78wMqKkxzv3L/), whom I'd once interviewed for a job at Glitch. I'm glad he kept in touch because he gave me a suggestion that led me to [macrolight](https://github.com/xyzshantaram/macrolight), a tiny and not-at-all robust syntax highlighting library.
 
-Syntax highlighting in Kinopio doesn't need the vscode-level accuracy that the other libraries provided – speed matters more here.
+This made me rethink my whole approach.
+
+Syntax highlighting in Kinopio doesn't need the vscode-level accuracy that the popular libraries provide – speed and size matter more here.
 
 <img class="wide" src="https://updates.kinopio.club/codeblocks-wip.png">
 
