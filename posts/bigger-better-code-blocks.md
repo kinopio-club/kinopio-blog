@@ -5,8 +5,10 @@ date: 2023-10-23
 tags: ["New Stuff"]
 color: '#cf8641'
 image: 'https://updates.kinopio.club/bigger-better-code-blocks-thumb.png'
-description: When you paste code into cards between ```triple backticks```, your code will get syntax highlighting
+description: Save code snippets and give them context
 ---
+
+Kinopio makes it easy to save code snippets and give them context for reference spaces, engineering diagrams, and decision trees.
 
 When you paste code into cards between ``` triple backticks```, your code will get syntax highlighting. You can either type the language name after the backticks (e.g. ```js), or select it from the list.
 
@@ -17,8 +19,6 @@ When you paste code into cards between ``` triple backticks```, your code will g
 </p>
 
 Relatedly, to accommodate larger code snippets, cards with ``` triple backticks can hold more characters (2000).
-
-Combined with syntax highlighting, Kinopio makes it easy to save code snippets and give them context for reference diagrams and decision trees.
 
 (Also new is a Copy code button for easily pasting code into your text editor)
 
