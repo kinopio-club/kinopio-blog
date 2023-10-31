@@ -1,7 +1,7 @@
 ---
 title: 'Lifetime Plan'
-metaDate: 'Oct 23, 2023'
-date: 2023-10-23
+metaDate: 'Oct 31, 2023'
+date: 2023-10-31
 tags: ["New Stuff"]
 color: '#e04b29'
 image: 'https://updates.kinopio.club/sweet.jpeg'
