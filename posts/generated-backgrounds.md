@@ -5,7 +5,7 @@ date: 2023-11-10
 tags: ["New Stuff"]
 color: '#91ffff'
 image: 'https://updates.kinopio.club/generated-background-thumb.jpeg'
-description: Purchase a liftetime plan for $200
+description: Generated backgrounds make getting started off right a lot easier
 ---
 
 
