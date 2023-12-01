@@ -14,7 +14,7 @@ Really handy for diagrams, and for guiding people around your spaces.
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://updates.kinopio.club/drag-labels.mp4">
+  <source src="https://updates.kinopio.club/drag-labels1.mp4">
 </video>
 </p>
 
