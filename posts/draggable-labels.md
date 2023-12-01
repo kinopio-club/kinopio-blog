@@ -26,4 +26,10 @@ When it comes to interacting with them, dragging labels have a lot in common wit
 
 - cmd-z to undo your drag
 - double-click to reset position to center
-- collaborators can see labels moving around
+- collaborators can see labels moving around:
+
+<p>
+<video class="wide" autoplay loop muted playsinline>
+  <source src="https://updates.kinopio.club/drag-label-collab.mp4">
+</video>
+</p>
