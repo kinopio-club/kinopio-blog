@@ -25,4 +25,5 @@ The previous design for space links was as inline badges inside the card name, b
 - The height of cards with a space link is now a little taller, so some tightly packed layouts are gonna need to be manually cleaned up.
 - To avoid disrupting existing layouts as much as possible, your existing space link cards won’t have image previews. You’ll need to toggle them on inside the card.
 - The linked space also needs to have a space preview image generated, which you can do by visiting the space at least once. Each time you visit the space the preview will be regenerated. That said, it might take up to 5 minutes before your shows you the latest generated version.
+- Eventually the plan is to use these generated images in more places, like on an explore page and for URL unfurls in other apps.
 - Previews are generated using light theme colors. If there's demand for dark mode previews let me know and I'll add that in the future.
