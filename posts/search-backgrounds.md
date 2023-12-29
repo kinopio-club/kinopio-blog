@@ -1,6 +1,6 @@
 ---
 title: 'Search Backgrounds'
-metaDate: 'Feb 24, 2022'
+metaDate: 'Feb 24, 2023'
 date: 2023-02-24
 tags: ["New Stuff"]
 color: '#a9c5a2'
