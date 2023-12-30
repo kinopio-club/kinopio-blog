@@ -3,7 +3,7 @@ title: 'Public Presence and Painting'
 metaDate: 'Jun 23, 2023'
 date: 2023-06-23
 tags: ["New Stuff"]
-color: '#fdba9c'
+color: '#f5c2cb'
 image: 'https://kinopio-blog.us-east-1.linodeobjects.com/public-presence-painting.jpeg'
 description: When viewing a public space, your cursor position and paint strokes are broadcasted to everyone else viewing that space
 ---
