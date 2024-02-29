@@ -5,7 +5,7 @@ date: 2024-02-23
 tags: ["New Stuff"]
 color: '#91ffff'
 image: 'https://updates.kinopio.club/tilt-cards-thumbnail.webp'
-description: Reposition connection labels to get them just right
+description: Angle cards for fun and emphasis by dragging their bottom-left corners
 ---
 
 Angle cards for fun and emphasis by dragging their bottom-left corners. Double click the corner to reset rotation.
