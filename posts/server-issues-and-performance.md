@@ -29,7 +29,7 @@ This whole affair was a big learning experience for me, especially in the low le
 
 While I worked with Lucas to understand the problem, I captured all my notes in [this space](https://kinopio.club/db-debugging-and-tasks---mar-24---apr-rOi8bPSTBX6F5dlC3rYLe). But basically, two totally separate bugs worked together to take down the server:
 
-## 1. Client Sync Bug
+## 1. A Client Sync Bug
 
 In some conditions, the client app would send update operations in the wrong order (e.g. trying to create a connection, before the connectionType it belongs to being created), causing the database to throw errors.
 
@@ -37,7 +37,7 @@ These thrown errors weren't being properly `catch`ed and would crash the server.
 
 The solution was to overhaul the logging and error handling systems.
 
-## 2. Database Sync Bug
+## 2. A Database Sync Bug
 
 In prior jobs, I've had to use things like Rails' Active Record Migrations anytime I needed to make any change to the database. It was a manual and laborious process. So when I learned that Sequelize could automatically sync the state of the database to reflect it's model files it felt like a magical slam dunk. And it was, until now.
 
