@@ -37,7 +37,7 @@ These thrown errors weren't being properly `catch`ed and would crash the server.
 
 The solution was to overhaul the logging and error handling systems.
 
-## 2. A Database Sync Bug
+## 2. And a Database Sync Bug
 
 In prior jobs, I've had to use things like Rails' Active Record Migrations anytime I needed to make any change to the database. It was a manual and laborious process. So when I learned that Sequelize could automatically sync the state of the database to reflect it's model files it felt like a magical slam dunk. And it was, until now.
 
