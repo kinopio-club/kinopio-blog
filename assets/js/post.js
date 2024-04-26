@@ -4,8 +4,6 @@ const post = document.querySelector('.article-content')
 const p = post.querySelectorAll('p')
 const li = post.querySelectorAll('li')
 
-console.log('🌷',post, p, li)
-
 const insertBadges = (elements) => {
   for (let i = 0; i < elements.length; i++) {
     let string = elements[i].innerHTML
@@ -18,4 +16,3 @@ const insertBadges = (elements) => {
 
 insertBadges(p)
 insertBadges(li)
-
