@@ -1,5 +1,5 @@
 ---
-title: 'Linked Space Previews'
+title: 'Space List Previews'
 metaDate: 'Feb 17, 2024'
 date: 2024-02-17
 tags: ["New Stuff"]
