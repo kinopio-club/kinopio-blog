@@ -20,7 +20,9 @@ Make titles and headlines stand out – or Really stand out – with new size op
 
 # Backstory
 
-Being able to increase header font sizes was a very recent community suggestion on Discord, stemming from some experiments simulating how this could look using custom CSS [image.webp].
+Being able to increase header font sizes was a very recent community suggestion on Discord, stemming from some experiments simulating how this could look using custom CSS.
+
+<img src="/assets/posts/header-font-sizes/example-font-size.webp"/>
 
 I wasn't sure if I should ship this tbh. There's an inherent tension between flexible and easy/inviting. Too much flexibility compromises the frictionless thinking and writing experience because you lose momentum adjusting things to look *just* right. Too little flexibility isn't great either of course because creative expression is a fun and integral part of making spaces and being productive with Kinopio.
 
