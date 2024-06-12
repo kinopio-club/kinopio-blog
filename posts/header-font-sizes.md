@@ -24,8 +24,6 @@ Being able to increase header font sizes was a very recent community suggestion 
 
 <img src="/assets/posts/header-font-sizes/example-font-size.webp"/>
 
-I wasn't sure if I should ship this tbh. There's an inherent tension between flexible and easy/inviting. Too much flexibility compromises the frictionless thinking and writing experience because you lose momentum adjusting things to look *just* right. Too little flexibility isn't great either of course because creative expression is a fun and integral part of making spaces and being productive with Kinopio.
-
-In the case of large size text, it's a lot of creative power – but it's also a lot of rope to make spaces awkward to look at and follow for those on smaller mobile screens. 
+But I wasn't sure if I should ship this tbh. There's a tight-rope to walk between flexibility and ease. Too much flexibility adds friction to the thinking and writing experience because you lose momentum tweaking things to look *just* right. But being too rigid isn't great either because creativity is a fun and integral part of making spaces and being productive with Kinopio.
 
 > So my advice is to use large sizes sparingly. Like salt, just a little pinch is all you need to season a dish. Use too much and you can make a meal (or the readability of your space) hard to digest.
