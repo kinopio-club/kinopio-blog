@@ -3,7 +3,7 @@ title: 'Collaborator Pings'
 metaDate: 'Jun 18, 2024'
 date: 2024-06-18
 tags: ["New Stuff"]
-color: '#91ffff'
+color: coral
 video: '/assets/posts/collaborator-pings/sonar-ping-thumb.mp4'
 description: Right-click to ping your position to everyone else in a space
 ---
