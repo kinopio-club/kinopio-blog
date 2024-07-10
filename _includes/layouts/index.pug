@@ -45,6 +45,7 @@ section#index.index
             video(autoplay loop muted playsinline)
               source(src=video)
           h2 #{post.data.title}
+          p #{post.data.description}
           if post.data.tags[0]
             p.post-meta.post-tag #{post.data.tags[0]}
           p.post-meta #{post.data.metaDate}
