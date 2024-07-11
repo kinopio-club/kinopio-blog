@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "https://blog.kinopio.club"
-  status = 301
-  force = true
