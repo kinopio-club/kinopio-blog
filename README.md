@@ -6,18 +6,6 @@
 
 [help.kinopio.club](https://help.kinopio.club)
 
-A simple static [11ty](https://www.11ty.io/docs/usage/) website for [Kinopio](https://kinopio.club) help posts and API docs
+This site used to host the kinopio blog, but it's since been moved to the [kinopio blog space](https://kinopio.club/blog) for better ease of updating and collaboration.
 
-## Setup
-
-	$ npm install
-
-## Run
-
-	$ npm run serve
-	$ npm run styles
-	http://localhost:8082
-
-## Create a New Post
-
-Duplicate and edit an existing post in `/posts` with the same collection tag of the new post. New files become posts with urls based on the file name, and get automatically added to the index page.
+All this does now is run `index.html` which manually redirects you to the space. All the other files in this repo are preserved for posterity only.
