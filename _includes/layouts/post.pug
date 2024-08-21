@@ -1,0 +1,20 @@
+---
+layout: default.pug
+---
+
+article
+  h1 #{title}
+  img.icon.updated(src="/assets/updated.gif")
+
+  if tags[0]
+    a(href='/')
+      p.post-meta.post-tag #{tags[0]}
+
+  a(href=page.url)
+    span.post-meta #{metaDate}
+
+  .article-content
+    hr
+    span !{content}
+
+script(src="/assets/js/post.js")

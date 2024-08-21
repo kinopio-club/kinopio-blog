@@ -1,0 +1,64 @@
+<html lang="en"><head><title>Bulletin № 32</title><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="In the last bulletin, I promised that the next time I wrote you would be when the then-in-progress Kinopio for iOS was out. Well, now it is!"/><meta name="og:title" content="Bulletin № 32"/><meta name="og:description" content="In the last bulletin, I promised that the next time I wrote you would be when the then-in-progress Kinopio for iOS was out. Well, now it is!"/><meta name="og:image" content="https://updates.kinopio.club/ambassador-space-thumb.png?a=1"/><meta name="og:type" content="article"/><link rel="stylesheet" href="/styles/styles.css"/><link rel="alternate" type="application/rss+xml" href="/feed.xml"/><link rel="alternate" type="application/rss+json" href="/feed.json"/></head><body style="background-color:undefined"><div class="content-wrap"><header><div class="title"><a href="/"><img class="hidden" src="/assets/logo-hover.png"/><img class="hidden" src="/assets/logo-active.png"/><div class="logo"></div><h1>Kinopio Blog</h1></a></div></header><nav><a href="https://help.kinopio.club/about/"><button>About</button></a><a href="https://kinopio.club"><button class="button-to-kinopio">Kinopio →</button></a></nav><main><article><h1>Bulletin № 32</h1><img class="icon updated" src="/assets/updated.gif"/><a href="/"><p class="post-meta post-tag">Bulletin</p></a><a href="/posts/32/"><span class="post-meta">Sept 20, 2023</span></a><div class="article-content"><hr/><span><p>Hi friends,</p>
+<p>A couple months ago, I promised that the next bulletin I'd write would be about Kinopio for iOS. Well, now it's out!</p>
+<img src="https://updates.kinopio.club/ios-app-iphone-photo.jpg" class="">
+<p>You can <a href="https://apps.apple.com/us/app/kinopio/id6448743101">download Kinopio for iOS on the App Store</a>. And – if you're so inclined – you can <a href="https://pketh.org/kinopio-ios.html">read about how it was made</a> too.</p>
+<p>Besides the new app, it's been a packed couple of months. There's a couple new features, a bunch of little performance and quality-of-life improvements, and a lot of boring-but-fundamental infrastructure improvements that'll keep Kinopio running fast and reliably for years to come.</p>
+<h2>Also New</h2>
+<p>
+<video class="wide" autoplay loop muted playsinline>
+  <source src="https://updates.kinopio.club/card-text-editor-keyboard-enter-shortcuts.mp4">
+</video>
+</p>
+<ul>
+<li>The <a href="https://blog.kinopio.club/posts/card-text-editor/">Card Text Editor</a> lets you edit your cards linearly as if they were paragraphs blocks.</li>
+<li>For those who work in dark mode (<code>t</code>), there are new <a href="https://blog.kinopio.club/posts/dark-backgrounds/">Dark Background variants</a> for every built-in space background to keep things easy on the eyes.</li>
+</ul>
+<p>
+<video class="wide" autoplay loop muted playsinline>
+  <source src="https://updates.kinopio.club/connection-highlighting.mp4">
+</video>
+</p>
+<ul>
+<li><a href="http://localhost:8082/posts/connection-highlighting/">Improved Connection Highlighting</a> helps guide your eye and visually untangle busy spaces.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>Uploaded files are now served from CDN urls, which means that your cards will load just as fast in Jakarta as they do in Brooklyn.</li>
+<li>Speaking of 🌍, the billing system was totally rewritten to work better internationally. You can also now update your billing details and payment method anytime (<code>User → Settings → Billing and Credits → Customer Portal</code>)</li>
+<li>10x performance improvement of loading spaces which have a lot space and card links in them. (Like <a href="https://kinopio.club/-2023-humdrum-zxU5zQtON09eepqKhJrhG">this one</a>)</li>
+<li>The browser extension and iOS share sheet have a cleaner design that loads faster and takes up less space</li>
+<li>you can now change your email and password while signed in via <code>User → Settings → Account</code></li>
+<li>When naming boxes, the input field now grows as your type to make it easier to write long box names (also fixes an issue where the 1Password browser extension would try and autofill the field like a password)</li>
+<li>Card links no longer display their space at the top of the card card for a more compact appearance.</li>
+<li>The <code>Pricing</code> button in the header is now always visible unless you upgrade (before it'd go away after Sign In, but enough people couldn't find it when they needed it)</li>
+<li>Free card limit progress is moved to <code>Pricing</code></li>
+<li>A <code>back</code> button next to your current space in the header for jumping to your previously visited space in the current session. Handy for peeking into a space and going back to where you were, especially when using the native desktop and mobile apps.</li>
+<li>If you don't like the random cycling colors that appear above or outside your space when zoomed out, you can now set it to plain grey in <code>user → settings → controls</code></li>
+</ul>
+<p>
+<video class="wide" autoplay loop muted playsinline>
+  <source src="https://updates.kinopio.club/ios-app-header.mp4">
+</video>
+</p>
+<h2>Fixes</h2>
+<ul>
+<li>If you're an upgraded user and you invite other people to a space, they'll be able to upload any size file in it (just like how they can add unlimited cards for free).</li>
+<li>Fixed a bug where card widths would displayed very narrow when adding a URL to them</li>
+<li>The backend server infrastructure was completely cleaned, lubed and adjusted. Core parts like <code>node.js</code>, <code>bcrypt</code>, <code>sequelize</code> were upgraded to modern versions, and old libraries and other gunk was cleaned out. Shockingly, it seems to have gone quite smoothly.</li>
+<li>The browser back button now works reliability, especially for signed out users</li>
+<li>Align and Distribute commands now calculate positions correctly when zoomed out</li>
+</ul>
+<h2>Works and Experiments in Progress</h2>
+<ul>
+<li>Invite read-only viewers to private spaces</li>
+<li>Faster image uploads / HEIC file support</li>
+<li>Customizable card h1/h2 fonts</li>
+<li>Card tilting</li>
+<li>Lines: A totally new tool for organizing your spaces</li>
+</ul>
+<h2>A Call for Friends of Kinopio</h2>
+<p>If you've read it this far then you must be quite special.</p>
+<p>If you're interested in building an audience by blogging, video-ing, or podcast-ing about Kinopio – and getting an exclusive user badge and cool stickers – then maybe the <em>Friends-of-Kinopio</em> Ambassador program is for you.</p>
+<img src="https://updates.kinopio.club/ambassador-space-cropped.png" class="">
+<p>There's only 5 spots left though, so <a href="https://kinopio.club/friends-of-kinopio-ambassadors-YNmS6C3fofN3R9mYgO1Bu">check out this space</a> to learn more and join the club.</p>
+</span></div></article><script src="/assets/js/post.js"></script></main><footer id="footer"><img class="froggo" src="/assets/froggo.png"/><div class="button-wrap"><a href="/feed.json"><button>RSS</button></a></div><div class="button-wrap"><a href="https://twitter.com/KinopioClub"><button>Follow @KinopioClub</button></a></div><div class="button-wrap"><a href="https://kinopio.club"><button class="button-to-kinopio">Kinopio →</button></a></div><div class="sections"><section><h3>Contact Support</h3><ul><li><a href="mailto:hi@kinopio.club"><span class="extended-text">Mail&nbsp;</span><span>hi@kinopio.club</span></a></li><li><a href="https://club.kinopio.club">Support Forum</a></li><li><a href="https://discord.gg/h2sR45Nby8">Discord</a></li></ul></section><section><h3>Spread the word</h3><ul><li><a href="https://www.producthunt.com/posts/kinopio"><span class="extended-text">Featured on&nbsp;</span><span>ProductHunt</span></a></li><li><a href="https://alternativeto.net/software/kinopio/about"><span class="extended-text">Like on&nbsp;</span><span>AlternativeTo</span></a></li><li><a href="https://www.saashub.com/kinopio"><span class="extended-text">Review on&nbsp;</span><span>Saashub</span></a></li></ul></section></div></footer></div><!-- p--><!--   a(href="https://github.com/kinopio-club/kinopio-help") View Source--><canvas id="background"></canvas><canvas id="page-background"></canvas><canvas class="auto-paint" id="canvas-intro"></canvas><canvas class="auto-paint" id="canvas-collaboration"></canvas><canvas class="auto-paint" id="canvas-images"></canvas><canvas class="auto-paint" id="canvas-tags"></canvas><canvas class="auto-paint" id="canvas-comments"></canvas><canvas class="auto-paint" id="canvas-mobile-left"></canvas><canvas class="auto-paint" id="canvas-mobile-right"></canvas><canvas class="auto-paint" id="canvas-cta-bottom"></canvas></body><script src="/assets/js/magic-paint.js"></script></html>

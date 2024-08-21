@@ -1,0 +1,585 @@
+:root
+  --primary #20411d
+  --primary-background #e8eede
+
+  // --secondary #666
+  --secondary-background #e3e3e3
+  --secondary-hover-background #c9e6c7
+  --secondary-active-background #abd4a5
+
+  --light-shadow rgba(0,0,0,0.20)
+  --heavy-shadow rgba(0,0,0,0.25)
+
+  // --danger-background #ffb8b3
+  // --danger-hover-background #ffa49e
+  // --danger-active-background #ff928b
+
+  --info-background #90ffff
+  --success-background #98f49f
+
+  // non-theme vars
+  // --max-z 2147483647
+  --hover-shadow 3px 3px 0 var(--heavy-shadow)
+  // --active-shadow 5px 5px 0 var(--light-shadow)
+  // --active-inset-shadow inset 0 2px 3px var(--light-shadow)
+  // --button-hover-shadow inset 0 1px 2px var(--heavy-shadow)
+  --button-active-inset-shadow inset 0px 1px 2px var(--heavy-shadow)
+
+  --badge-shadow 2px 2px 0 var(--light-shadow)
+  --button-to-kinopio-hover-shadow 5px 5px 0 var(--heavy-shadow)
+
+  // help site vars
+  --max-page-width 520px
+  --page-margin 20px
+  --page-background #e8eede
+  --code-background #ccd9b7
+  --table-border #c5c5c5
+  --table-hover-background rgba(0,0,0,0.05)
+  --cta-background #67ffbb
+  --sans-serif Helvetica Neue, Helvetica, Arial, sans-serif
+  --tertiary #c4e7d6
+
+  --entity-radius 6px
+  --article-image-radius 12px
+
+// Elements
+
+@font-face
+  font-family 'OsakaMono-Kinopio'
+  src url("/assets/fonts/OsakaMono-Kinopio.woff2") format("woff2")
+  font-weight normal
+  font-style normal
+
+@font-face
+  font-family 'Recoleta'
+  src url("/assets/fonts/Recoleta-Regular.woff2") format("woff2")
+  font-weight normal
+  font-style normal
+
+@font-face
+  font-family 'Recoleta'
+  src url("/assets/fonts/Recoleta-Bold.woff2") format("woff2")
+  font-weight bold
+  font-style normal
+
+@font-face
+  font-family 'Aureum'
+  src url("/assets/fonts/Greenhouse-Aureum.woff2") format("woff2")
+  font-weight normal
+  font-style normal
+
+*
+  -webkit-overflow-scrolling touch
+  -webkit-tap-highlight-color transparent
+  box-sizing border-box
+  // font-family "OsakaMono-Kinopio", monospace
+
+body
+  color var(--primary)
+  font-family var(--sans-serif)
+  margin var(--page-margin)
+  background-color var(--page-background)
+
+.content-wrap
+  margin-left auto
+  margin-right auto
+  max-width 800px
+  width 100%
+  position relative
+  // background-image url("https://kinopio.club/img/background.597f845c.svg")
+  // background-position top
+  padding 0
+
+.logo
+  background-image url('/assets/logo-patch.png')
+  background-size contain
+  background-repeat no-repeat
+  width 66px
+  height 55px
+  // margin-left -25px
+  margin-bottom 6px
+
+.hidden
+  display none !important
+
+h1
+  // font-family Mars
+  font-family Recoleta
+  font-size 30px
+  font-weight normal
+  // margin-bottom 1rem
+  // font-family Agrandir
+h2,
+h3
+  margin-top 2rem
+  font-family Recoleta
+  // font-family Mars
+  font-size 22px
+  font-weight normal
+  // font-family Agrandir
+
+h1,
+h2,
+a,
+p
+  max-width var(--max-page-width)
+
+p
+  line-height 1.2
+
+figcaption
+  p
+    font-size 14px
+    opacity 0.5
+
+a
+  color var(--primary)
+  // color blue
+  &:hover
+    text-decoration none
+
+.icon
+  width 13px
+  display inline
+  vertical-align 1px
+  margin-right 5px
+  user-drag none
+  -webkit-user-drag none
+
+// .down-arrow
+//   width 10px
+//   margin 0
+//   margin-left 5px
+//   vertical-align middle
+
+.icon.templates
+  margin-bottom 0
+  width 20px
+  margin-right 0
+
+.heart
+  margin-left 5px
+
+.icon.new
+  width 32px
+  margin-right 2px
+
+.icon.updated
+  width 55px
+  margin-right 5px
+  margin-bottom 0
+  vertical-align middle
+
+form
+  margin 0
+  display flex
+
+input
+  font-size 16px
+  font-family var(--sans-serif)
+  background-color transparent
+  border none
+  border-radius 0
+  border-bottom 1px solid black
+
+img
+  width 100%
+  max-width var(--max-page-width)
+
+ul
+  padding 0
+  li
+    list-style none
+    margin-bottom 12px
+
+.badge
+  color var(--primary)
+  text-decoration none
+  background var(--info-background)
+  padding 4px 5px
+  border-radius var(--entity-radius)
+  box-shadow var(--badge-shadow)
+  &:hover,
+  &:focus
+    box-shadow var(--hover-shadow)
+  &:active,
+  &.active
+    box-shadow var(--button-active-inset-shadow)
+.badge-inline
+  border-radius 10px
+  padding 2px 6px
+  &.badge-fixed
+    background #80caac
+  &.badge-api-docs
+    background #e088e8
+  &.badge-improved
+    background #eee698
+button
+  color var(--primary)
+  touch-action manipulation
+  text-align left
+  padding 7px
+  padding-top 4px
+  padding-bottom 4px
+  margin 0
+  border 1px solid var(--primary)
+  background-color transparent
+  border-radius var(--entity-radius)
+  cursor pointer
+  user-select none
+  font-size 14px
+  font-family var(--sans-serif)
+  &:hover,
+  &:focus
+    box-shadow var(--hover-shadow)
+    background var(--secondary-hover-background)
+  &:active,
+  &.active
+    color var(--primary)
+    box-shadow var(--button-active-inset-shadow)
+    background var(--secondary-active-background)
+
+.button-to-kinopio
+  background-color var(--cta-background)
+  box-shadow var(--hover-shadow)
+  &:hover,
+  &:focus
+    background-color var(--cta-background)
+    box-shadow var(--button-to-kinopio-hover-shadow)
+  &:active
+    background-color var(--cta-background)
+    box-shadow var(--button-active-inset-shadow)
+
+.segmented-buttons
+  button
+    margin 0
+    border-radius 0
+  a
+    button
+      margin-left -1px
+    &:first-child
+      button
+        border-top-left-radius 3px
+        border-bottom-left-radius 3px
+        margin-left 0
+    &:last-child
+      button
+        border-top-right-radius 3px
+        border-bottom-right-radius 3px
+
+code,
+blockquote
+  background var(--code-background)
+
+code
+  color var(--primary)
+  padding 2px
+  padding-left 6px
+  padding-right 6px
+  border-radius var(--entity-radius)
+  font-family "OsakaMono-Kinopio", monospace
+
+// codeblock
+pre
+  max-width var(--max-page-width)
+  background var(--code-background)
+  overflow scroll
+  border-radius var(--entity-radius)
+  padding 6px
+
+blockquote
+  margin 0
+  border-radius var(--entity-radius)
+  padding 8px
+  display inline-block
+  p
+    margin 0
+
+canvas#background
+  position fixed
+  background-color transparent
+  top 0
+  left 0
+  z-index -1
+canvas#page-background,
+canvas.auto-paint
+  position absolute
+  background-color transparent
+  top 0
+  left 0
+  z-index -2
+canvas.auto-paint
+  z-index -3
+
+.table-wrap
+  overflow-x auto
+  border-radius var(--entity-radius)
+
+table
+  border-collapse collapse
+  max-width 1000px
+  th,
+  td
+    padding 12px
+    text-align left
+    border-bottom 1px solid var(--table-border)
+  tr
+    &:hover
+      background var(--table-hover-background)
+
+// Components
+
+header
+  .title
+    display flex
+  h1
+    font-family Recoleta
+    font-size 24px
+    font-weight bold
+    margin-top 0
+    padding-top 10px
+    margin-bottom 0
+    color var(--primary)
+  a
+    color var(--primary)
+    text-decoration none
+    &:hover,
+    &:focus
+      text-decoration underline
+      .logo
+        background-image url('/assets/logo-patch-back.png')
+
+.search
+  display flex
+  margin-bottom 2rem
+  img
+    width 18px
+    padding-right 4px
+    cursor pointer
+    margin-top 1px
+
+main
+  button
+    font-size 16px
+
+footer
+  margin-top 4rem
+  margin-bottom 4rem
+  .button-wrap
+    margin-top .5rem
+  .sections
+    margin-top 1rem
+    display flex
+    section + section
+      margin-left 2rem
+    h3
+      font-size 20px
+      margin-top 1rem
+  nav
+    margin-top 1rem
+    position static
+  li
+    a
+      background-color var(--tertiary)      
+      color var(--primary)
+      text-decoration none
+      padding 4px 5px
+      border-radius var(--entity-radius)
+      box-shadow var(--badge-shadow)
+      &:hover,
+      &:focus
+        box-shadow var(--hover-shadow)
+      &:active
+        box-shadow var(--button-active-inset-shadow)
+
+  blockquote
+    margin-top 1rem
+    margin-bottom 0
+  @media(max-width 420px)
+    .extended-text
+      display none
+
+nav
+  display flex
+  position absolute
+  right 0
+  top 0
+  button
+    margin-left 6px
+
+.content-wrap
+  nav
+    @media(max-width 375px)
+      max-width 220px
+      flex-wrap wrap
+      justify-content flex-end
+
+article
+  h1
+    margin-bottom 1rem
+  ul,
+  ol
+    max-width var(--max-page-width)
+    padding-left 1rem
+    margin-left 1rem
+    li
+      margin-bottom 12px
+
+  ul
+    li
+      list-style-type disc
+
+  img,
+  video
+    width 420px
+    max-width 100%
+    border-radius var(--article-image-radius)
+    margin-bottom 1rem
+    &.wide
+      width 700px
+      max-width 700px
+    &.narrow
+      width 250px
+    &.no-shadow
+      box-shadow none
+    &.medium
+      width 500px
+
+img + h2,
+video + h2
+  margin-top 1.5rem
+
+.froggo
+  max-width 60px
+  margin-bottom 0.5rem
+
+.row
+  display flex
+  margin-bottom 1rem
+  button
+    margin-right 10px
+
+// posts
+
+.index
+  ul
+    width 100%
+    display flex
+    flex-wrap wrap
+  li
+    // max-width 23%
+    margin-right 1rem
+    // @media(max-width 839px)
+    max-width 30%
+    @media(max-width 574px)
+      max-width 44%
+  .post-wrap
+    display block
+    padding 12px
+    border-radius var(--entity-radius)
+    display inline-block
+    min-width 100px
+    text-decoration none
+    box-shadow var(--badge-shadow)
+    img
+      border-radius var(--entity-radius)
+    video
+      border-radius var(--entity-radius)
+      max-width 100%
+    h2
+      margin-top 1rem
+      margin-bottom 2px
+      font-size 18px
+    &:hover,
+    &:focus
+      box-shadow var(--hover-shadow)
+    &:active,
+    &.active
+      box-shadow var(--button-active-inset-shadow)
+
+hr
+  border-top 1px solid var(--primary)
+  border-bottom none
+
+.article-content
+  margin-top 1rem
+  .badge
+    box-shadow none
+
+.post-meta
+  padding 3px 5px
+  border 1px solid var(--primary)
+  border-radius 10px
+  display inline-block
+  font-size 12px
+  margin-bottom 0
+
+.post-tag
+  margin-right 5px
+
+// guides
+
+.guides
+  aside.info
+    border-radius var(--entity-radius)
+    width 200px
+    margin-top 2em
+    // background-color var(--secondary-background)
+    border 1px solid var(--primary)
+    section
+      padding 8px
+      &.title
+        border-bottom 1px solid var(--primary)
+    p
+      margin 0
+    p + p
+      margin-top 8px
+  .user
+    vertical-align -3px
+  .category
+    display block
+    margin-top 3em
+    margin-bottom 1em
+    .badge
+      display inline-block
+      // margin-bottom 4em
+      box-shadow none
+
+.kinopio-embed
+  height 620px
+  width 100%
+  margin-top 2em
+  border-radius var(--entity-radius)
+  box-shadow var(--hover-shadow)
+  .embed-title
+    border-radius var(--entity-radius)
+    border-bottom-left-radius 0
+    border-bottom-right-radius 0
+    background var(--tertiary)
+    padding 8px 10px
+    .badge
+      display inline
+      box-shadow none
+      margin-left 5px
+  iframe
+    display block
+    border-radius var(--entity-radius)
+    border-top-left-radius 0
+    border-top-right-radius 0
+    height calc(100% - 34px)
+    width 100%
+    border 0
+    background white
+
+.user
+  margin-right 4px
+  background-image url("/assets/anon-avatar.svg")
+  background-repeat no-repeat
+  width 18px
+  height 18px
+  background-color #91ffff
+  border-radius var(--entity-radius)
+  background-position center
+  background-size 65%
+  vertical-align 2px
+  display inline-block

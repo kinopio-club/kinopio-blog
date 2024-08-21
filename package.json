@@ -1,0 +1,27 @@
+{
+  "name": "kinopio-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve --port=8082",
+    "styles": "nodemon --exec 'stylus ./styles/styles.styl -o ./styles/styles.css'",
+    "build": "stylus ./styles/styles.styl -o ./styles/styles.css && npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "pirijan",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "nodemon": "^2.0.12",
+    "stylus": "^0.54.5"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "styles/"
+    ],
+    "ext": "styl"
+  }
+}

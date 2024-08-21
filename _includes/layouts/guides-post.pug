@@ -1,0 +1,39 @@
+---
+layout: default.pug
+---
+article.guides
+  h1 #{title}
+  img.icon.updated(src="/assets/updated.gif")
+
+  if tags[0]
+    a(href='/')
+      p.post-meta.post-tag #{tags[0]}
+
+  a(href=page.url)
+    span.post-meta #{metaDate}
+
+  .article-content
+    hr
+
+    aside.info
+      section.title
+        p
+          .user(style=`background-color: ${userColor}`)
+          if userUrl
+            a(href=`${userUrl}`)
+              span #{userName}
+          else
+            span #{userName}
+      section
+        a(href=spaceUrl)
+          p #{spaceName}
+
+
+    .kinopio-embed
+      .embed-title #{userShortName || userName}'s space
+        .badge Live Embed
+      iframe(src=`${spaceEmbedUrl}`)
+
+
+    span !{content}
+

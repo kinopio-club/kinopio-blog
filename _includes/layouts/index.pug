@@ -1,0 +1,51 @@
+---
+layout: default.pug
+---
+
+// mixin posts(collection)
+//   - let titles = ''
+//   each post in collections[collection]
+//     - titles = titles + ',' + post.data.title
+//   // Title
+//   h2(data-posts=titles) #{collection}
+//   //- Posts
+//   ul
+//     each post in collections[collection]
+//       li(data-title=post.data.title)
+//         a(href=post.url style={background: post.data.color})
+//           span #{post.data.title}
+
+section#hello
+  p
+    img.icon.new(src="/assets/new.gif")
+    span in Kinopio, the thinking tool for building new ideas and solving hard problems
+
+  .row
+    .button-wrap
+      a(href="/feed.json")
+        button RSS
+    .button-wrap
+      a(href="https://twitter.com/KinopioClub")
+        button Follow @KinopioClub
+  .row    
+    blockquote Subscribe to bulletin emails by signing up for#{' '}
+      a(href="https://kinopio.club") Kinopio
+
+
+section#index.index
+  ul
+    each post in collections.all.reverse()
+      li
+        a.post-wrap(href=post.url style={background: post.data.color})
+          - let img = post.data.image
+          - let video = post.data.video
+          if img
+            img(src=img)
+          else if video
+            video(autoplay loop muted playsinline)
+              source(src=video)
+          h2 #{post.data.title}
+          p #{post.data.description}
+          if post.data.tags[0]
+            p.post-meta.post-tag #{post.data.tags[0]}
+          p.post-meta #{post.data.metaDate}

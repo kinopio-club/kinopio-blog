@@ -1,0 +1,57 @@
+---
+pageTitle: Kinopio Blog
+showFooter: true
+---
+html(lang="en")
+  head
+    title !{title}
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    //- https://iamjoona.com/blog/seo-tags-in-eleventy/
+    meta(name="description" content=description)
+    meta(name="og:title" content=title)
+    meta(name="og:description" content=description)
+    meta(name="og:image" content=image)
+    meta(name="og:type" content='article')
+
+    link(rel="stylesheet" href="/styles/styles.css")
+
+    //- rss
+    link(rel="alternate" type="application/rss+xml" href="/feed.xml")
+    link(rel="alternate" type="application/rss+json" href="/feed.json")
+
+  body(style='background-color:' + backgroundColor)
+    .content-wrap
+      header
+        .title
+          a(href='/')
+            img.hidden(src="/assets/logo-hover.png")
+            img.hidden(src="/assets/logo-active.png")
+            .logo
+            h1 !{pageTitle}
+
+      include nav.pug
+
+      main(class=pageClass) !{content}
+      if showFooter
+        include footer.pug
+    // p
+    //   a(href="https://github.com/kinopio-club/kinopio-help") View Source
+
+    canvas#background
+    canvas#page-background
+
+    canvas.auto-paint#canvas-intro
+    canvas.auto-paint#canvas-collaboration
+    canvas.auto-paint#canvas-images
+    canvas.auto-paint#canvas-tags
+    canvas.auto-paint#canvas-comments
+    canvas.auto-paint#canvas-mobile-left
+    canvas.auto-paint#canvas-mobile-right
+    canvas.auto-paint#canvas-cta-bottom
+
+  script(src="/assets/js/magic-paint.js")
+  if pageTitle === 'About Kinopio'
+    script(src="/assets/js/recorded-strokes.js")
+    script(src="/assets/js/auto-paint.js")
