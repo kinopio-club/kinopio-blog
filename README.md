@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/02be71fd-867f-4bfb-b000-9ff43f76a2e3/deploy-status)](https://app.netlify.com/sites/kinopio-help/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da71f58b-7a5a-4482-be3f-ef62137cdfa6/deploy-status)](https://app.netlify.com/sites/kinopio-blog/deploys)
 
 # Kinopio Blog
 
@@ -8,16 +8,16 @@
 
 ## Setup
 
-  $ npm install
+    $ npm install
 
 ## Run
 
-  $ npm run serve
-  http://localhost:8082
+    $ npm run serve
+    http://localhost:8082
 
 ## If updating `styles.styl`, then also run
 
-  $ npm run styles
+    $ npm run styles
 
 ## Create a New Post
 
