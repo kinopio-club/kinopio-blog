@@ -20,4 +20,6 @@ yarn-error.log*
 *.sw?
 
 /_site
+_site/*
+
 *.css
