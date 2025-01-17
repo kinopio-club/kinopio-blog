@@ -596,3 +596,11 @@ hr {
   vertical-align: 2px;
   display: inline-block;
 }
+.badge-row {
+  display: flex;
+}
+.badge-row img {
+  max-width: 70px;
+  margin: 0;
+  margin-right: 6px;
+}

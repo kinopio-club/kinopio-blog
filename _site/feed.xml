@@ -7,22 +7,154 @@
     <description>What&#39;s new in Kinopio, the thinking tool for building new ideas and solving hard problems</description>
     <language>en</language>
     <item>
-      <title></title>
-      <link>https://blog.kinopio.club/readme-deprecated/</link>
-      <description>&lt;h1&gt;Deprecated Readme&lt;/h1&gt;
-&lt;p&gt;A simple static &lt;a href=&quot;https://www.11ty.io/docs/usage/&quot;&gt;11ty&lt;/a&gt; website for &lt;a href=&quot;https://kinopio.club/&quot;&gt;Kinopio&lt;/a&gt; help posts and API docs&lt;/p&gt;
-&lt;h2&gt;Setup&lt;/h2&gt;
-&lt;p&gt;$ npm install&lt;/p&gt;
-&lt;h2&gt;Run&lt;/h2&gt;
-&lt;p&gt;$ npm run serve
-$ npm run styles
-http://localhost:8082&lt;/p&gt;
-&lt;h2&gt;Create a New Post&lt;/h2&gt;
-&lt;p&gt;Duplicate and edit an existing post in &lt;code&gt;/posts&lt;/code&gt; with the same collection tag of the new post. New files become posts with urls based on the file name, and get automatically added to the index page.&lt;/p&gt;
+      <title>Bulletin № 36</title>
+      <link>https://blog.kinopio.club/posts/36/</link>
+      <description>&lt;p&gt;Hi friends, &lt;/p&gt;
+&lt;p&gt;I get sick at least twice a year: when the seasons change from fall-to-winter, and from winter-to-spring. I can’t imagine living somewhere without seasons, I’d be invincible. But for now, my nose is still snotty, and I’m hoping this bulletin will be coherent.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://cdn.kinopio.club/fqoJozHGrobicZe0XUG1e/my-garden.webp&quot; alt=&quot;&quot; class=&quot;bulletin-image&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Over the last couple months, I’ve spent more time coding and less time writing – basically the opposite of what you should do to grow and gain awareness for a new product. &lt;/p&gt;
+&lt;p&gt;Instead, I dug deep into the mines of improving stability, reliability and speed. So now the app is over twice as fast, and uses half as much memory. But software performance is hard to hype, because you feel it more than see it. &lt;/p&gt;
+&lt;p&gt;Maybe more crowd-pleasing is all the New Stuff listed below. Not just things people have asked for, but also what they’re likely to use regularly because it solves recurring problems for them.&lt;/p&gt;
+&lt;p class=&quot;badge info badge-row&quot;&gt;
+  &lt;img class=&quot;small-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/phone-anime.webp&quot; alt=&quot;&quot; /&gt;
+  &lt;span&gt;Relatedly, if you use Kinopio for work I’d love to know what kinds of tasks you use it for, and what you find most helpful about it. (You can reply to this email)&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2&gt;What’s New&lt;/h2&gt;
+&lt;p&gt;Details on new features and bug fixes have been moved from the &lt;a href=&quot;https://blog.kinopio.club/&quot;&gt;blog&lt;/a&gt; to the &lt;a href=&quot;https://kinopio.club/changelog&quot;&gt;Changelog space&lt;/a&gt;. Adding cards is way easier than blog posts. The space is also easier to skim through, has more personality, and lets you add comment cards. &lt;/p&gt;
+&lt;p&gt;You can follow the Changelog, by ♥ing the space to get email notifications when new cards are added, or subscribe to the &lt;a href=&quot;https://api.kinopio.club/space/6lsytK8ZfOtMl2oqG05Rj/feed.json&quot;&gt;RSS Feed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;img class=&quot;small-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/changelog.gif&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;badge secondary&quot;&gt;(Even after leaving a lot out, this is going to be a long list of New Stuff)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Groups&lt;/strong&gt;. Keep spaces together and share them with the same set of people. Each Group member can see and edit all of the spaces in a Group. Use Groups for projects, teams, or like personal folders – it&#39;s really up to you.&lt;/p&gt;
+&lt;p&gt;
+&lt;img class=&quot;bulletin-image&quot; src=&quot;https://cdn.kinopio.club/DRcBPD9cSslJLY6QOUfYx/group-overview.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sort Spaces By Created At.&lt;/strong&gt; To make it easier to flip through past journal spaces, you can sort your spaces list by date created instead of by most recently updated&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Connect Boxes.&lt;/strong&gt; Just like how it works with cards, drag from boxes to create connections to cards, and to other boxes. &lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/connect-boxes.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Box Expanding.&lt;/strong&gt; When you drag cards to the edge of a box, hold, and release, the box will grow to envelop them in it&#39;s bosom-y embrace.&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-expand.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Box Shrink.&lt;/strong&gt; Double-click on a box resize handle in the bottom right to shrink a box around its contents.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-shrink.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Auto Align Cards Below.&lt;/strong&gt; When editing cards, the vertically aligned cards below will automatically adjust positions to stay aligned and prevent overlapping.&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/auto-align-cards-below.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Surround Selected Cards in Box.&lt;/strong&gt; Press &lt;code&gt;B&lt;/code&gt; to Surround Selected Cards in a Box [New Quality of Life Feature]&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/shortcut-b.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Shift-Drag to Snap to Grid.&lt;/strong&gt; Hold Shift while dragging or resizing cards and boxes snaps them a grid. Helpful when you want to line things up perfectly – or make your own calendar&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/snap-to-grid-muted.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Box Focusing.&lt;/strong&gt; Keep your focus on a set of cards and tasks by wrapping them in a box and clicking the box filter button to fade everything else out.&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-focusing.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Eiko header font.&lt;/strong&gt; An elegant header font for the very finest of spaces.&lt;/p&gt;
+&lt;p&gt;
+&lt;img class=&quot;bulletin-image&quot; src=&quot;https://cdn.kinopio.club/vl7Hc74bPcCb7jFm-KIwn/eiko.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Snap Guide Lines.&lt;/strong&gt; When &lt;strong&gt;shift-dragging&lt;/strong&gt; an item to snap its position to a grid, handy guide lines are to shown to help maintain horizontal or vertical alignment across a long drag distance.&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/snap-guide-lines.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Momentum Panning.&lt;/strong&gt; While holding space or right-click to pan, making quick movements and letting go will momentum scroll the page to make it easier to cover long-distances&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/momentum-scroll.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;h2&gt;New Personal Blogposts&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://pketh.org/plantstudio.html&quot;&gt;Digging Into PlantStudio, a Bit Late&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/plantstudio.webp&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pketh.org/towards-a-better-whiteboard.html&quot;&gt;Towards a Better Whiteboard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pketh.org/open-sourcing-kinopio.html&quot;&gt;Making the Kinopio Source Code Public&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Up Next&lt;/h2&gt;
+&lt;p&gt;I’ll be continuing to explore how Kinopio could best be used by teams. This will also involve learning more about how small businesses find and buy software. &lt;/p&gt;
+&lt;p&gt;Now that I’m out of the mines, I’ll hopefully be doing a lot more writing too. Including rewriting the help docs, and maybe publishing a user interview or guide.&lt;/p&gt;
+&lt;p&gt;Work has already begun on the much anticipated &lt;a href=&quot;https://forum.kinopio.club/t/planning-card-lists-or-maybe-named-card-stacks/276&quot;&gt;Lists&lt;/a&gt;. According to the forums, we’ve been discussing and planning this out since 2021. &lt;/p&gt;
+&lt;p&gt;Look forward to a new Producthunt launch, probably to be announced in the next bulletin. Kinopio originally launched as the #1 product of the week, it’d be cool to do that again. (wink).&lt;/p&gt;
+&lt;p&gt;And … after i’m finally done writing this bulletin i’m going to clean out my fridge of all the weird foods and strange cheeses bought last month that I know I will never eat again.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://cdn.kinopio.club/IuL2ghJrWJvhxK21mm1GC/original-2465ebc8353ff261a28a0127d7aa25e4.jpg&quot; alt=&quot;&quot; class=&quot;small-image bulletin-image&quot; /&gt;
+&lt;/p&gt;
 </description>
-      <pubDate>Thu, 11 Jul 2024 09:02:32 +0000</pubDate>
+      <pubDate>Thu, 16 Jan 2025 19:00:00 +0000</pubDate>
       <dc:creator>Pirijan</dc:creator>
-      <guid>https://blog.kinopio.club/readme-deprecated/</guid>
+      <guid>https://blog.kinopio.club/posts/36/</guid>
+    </item>
+    <item>
+      <title>Bulletin № 35</title>
+      <link>https://blog.kinopio.club/posts/35/</link>
+      <description>&lt;p&gt;Kinopio is 5 years old now :0&lt;/p&gt;
+&lt;p&gt;I&#39;m dusting off my e-quill to share the fan art that &lt;a href=&quot;https://tonytranrpg.com/&quot;&gt;Tony&lt;/a&gt; made for the Kinopio &lt;a href=&quot;https://en.wikipedia.org/wiki/Tabletop_role-playing_game&quot;&gt;Tabletop Role-Playing Game&lt;/a&gt; (TTRPG) campaign he started, and that 5 of us have been slowly playing over the last few months. &lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://cdn.kinopio.club/PLbO__574kK9BLmSgdizP/IMG-0267.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;In a TTRPG, you create a &lt;a href=&quot;https://kinopio.club/ttrpg---kid-dynamite-IYq4rWJKsjHfhHr7fzaLu&quot;&gt;character&lt;/a&gt; and make choices through a &lt;a href=&quot;https://kinopio.club/ttrpg---kid-dynamite-IYq4rWJKsjHfhHr7fzaLu&quot;&gt;campaign&lt;/a&gt; you&#39;re all guided through.&lt;/p&gt;
+&lt;p&gt;As the creator of Kinopio, it&#39;s really cool to see people using spaces in ways I never expected. But also, I winced when I saw performance buckling under the weight of 500 card long connected conversation trees, giant images, organized across 30+ boxes, card voting, colors, and six or so different header fonts in use. &lt;/p&gt;
+&lt;p&gt;As usual, I&#39;ll list the big new features below. But the updates I&#39;m most proud of are the extensive performance optimizations that collaborating in these gigantic spaces pushed me to do. &lt;/p&gt;
+&lt;p&gt;If you use Kinopio everyday it&#39;s easy to not notice now because it&#39;s the new normal, but every interaction, from clicking to create new cards, paint selecting, and editing cards is easily over 2✕ faster than it was a year ago.&lt;/p&gt;
+&lt;h2&gt;What&#39;s New&lt;/h2&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://cdn.kinopio.club/_-rhwVAiOkxEHS3DbMLb7/offline.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Offline Support lets you work in a subway, plane, or uncharted rainforest. When you come back online, your changes will be synced back up. I also blogged about how I did this &lt;a href=&quot;http://pketh.org/building-offline.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Email Space Invites from Share → Email Invites&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tilt Cards by dragging their bottom-left corners&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Import/Export to the open &lt;a href=&quot;https://jsoncanvas.org/&quot;&gt;JSON Canvas&lt;/a&gt; format&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://blog.kinopio.club/assets/posts/header-fonts/thumb.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Customizable Header Fonts and Font Sizes&lt;/li&gt;
+&lt;li&gt;Ping Collaborators by right clicking anywhere in a space&lt;/li&gt;
+&lt;li&gt;The Kinopio source code is now public so anyone can read it&#39;s code and contribute to it. I blogged about what this means and why I did this &lt;a href=&quot;https://pketh.org/open-sourcing-kinopio.html&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open space visitors can only leave comments. And the new Comments button in the header lets you view and hide space comments from one place&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://cdn.kinopio.club/HGlQPF406OhDkDE46ER-I/box-expand.gif&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When you drag cards to the edge of a box and release, the box will expand to envelop them in it&#39;s bosom-y embrace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Up Next (Or at Least Soon-Ish)&lt;/h2&gt;
+&lt;p&gt;Paraphrasing what I wrote in the &lt;a href=&quot;https://blog.kinopio.club/posts/34/&quot;&gt;last bulletin&lt;/a&gt;, because it feels truer now than ever.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Although I didn&#39;t design Kinopio primarily for work, I&#39;ve noticed that the most use happens during work hours. The use-cases here are taking notes, planning, and collaborating. A couple of people have asked about team plans where many people can easily share team spaces and be billed together.&lt;/p&gt;
+&lt;p&gt;This path also prioritizes long-planned features like &lt;a href=&quot;https://forum.kinopio.club/t/planning-card-lists-or-maybe-named-card-stacks/276&quot;&gt;Lists&lt;/a&gt;, and other collaborative workflow features.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The good news it that work on teams has begun. Those in the &lt;a href=&quot;https://help.kinopio.club/posts/teams&quot;&gt;Kinopio for Teams beta program&lt;/a&gt; can create teams, invite and manage team members, and assign team spaces. If you&#39;re interested in using Kinopio to brainstorm and think through ideas and plans with your colleagues, you&#39;re more than welcome to join the beta by replying to this email.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 03 Sep 2024 20:00:00 +0000</pubDate>
+      <dc:creator>Pirijan</dc:creator>
+      <guid>https://blog.kinopio.club/posts/35/</guid>
     </item>
     <item>
       <title>Compact Space Users List</title>
