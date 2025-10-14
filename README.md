@@ -12,7 +12,7 @@
 
 ## Run
 
-    $ npm run serve
+    $ npm run dev
     http://localhost:8082
 
 ## If updating `styles.styl`, then also run
