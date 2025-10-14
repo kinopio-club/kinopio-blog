@@ -9,17 +9,18 @@
     "url": "https://pketh.org"
   },
   "items": [{
-      "id": "https://blog.kinopio.club/posts/36/",
-      "url": "https://blog.kinopio.club/posts/36/",
-      "title": "Bulletin № 36",
-      "content_html": "<p>Hi friends, </p>\n<p>I get sick at least twice a year: when the seasons change from fall-to-winter, and from winter-to-spring. I can’t imagine living somewhere without seasons, I’d be invincible. But for now, my nose is still snotty, and I’m hoping this bulletin will be coherent.</p>\n<p>\n<img src=\"https://cdn.kinopio.club/fqoJozHGrobicZe0XUG1e/my-garden.webp\" alt=\"\" class=\"bulletin-image\" />\n</p>\n<p>Over the last couple months, I’ve spent more time coding and less time writing – basically the opposite of what you should do to grow and gain awareness for a new product. </p>\n<p>Instead, I dug deep into the mines of improving stability, reliability and speed. So now the app is over twice as fast, and uses half as much memory. But software performance is hard to hype, because you feel it more than see it. </p>\n<p>Maybe more crowd-pleasing is all the New Stuff listed below. Not just things people have asked for, but also what they’re likely to use regularly because it solves recurring problems for them.</p>\n<p class=\"badge info badge-row\">\n  <img class=\"small-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/phone-anime.webp\" alt=\"\" />\n  <span>Relatedly, if you use Kinopio for work I’d love to know what kinds of tasks you use it for, and what you find most helpful about it. (You can reply to this email)</span>\n</p>\n<h2>What’s New</h2>\n<p>Details on new features and bug fixes have been moved from the <a href=\"https://blog.kinopio.club\">blog</a> to the <a href=\"https://kinopio.club/changelog\">Changelog space</a>. Adding cards is way easier than blog posts. The space is also easier to skim through, has more personality, and lets you add comment cards. </p>\n<p>You can follow the Changelog, by ♥ing the space to get email notifications when new cards are added, or subscribe to the <a href=\"https://api.kinopio.club/space/6lsytK8ZfOtMl2oqG05Rj/feed.json\">RSS Feed</a>.</p>\n<p>\n<img class=\"small-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/changelog.gif\" alt=\"\" />\n</p>\n<p class=\"badge secondary\">(Even after leaving a lot out, this is going to be a long list of New Stuff)</p>\n<hr>\n<p><strong>Groups</strong>. Keep spaces together and share them with the same set of people. Each Group member can see and edit all of the spaces in a Group. Use Groups for projects, teams, or like personal folders – it's really up to you.</p>\n<p>\n<img class=\"bulletin-image\" src=\"https://cdn.kinopio.club/DRcBPD9cSslJLY6QOUfYx/group-overview.webp\" alt=\"\" />\n</p>\n<hr>\n<p><p><strong>Sort Spaces By Created At.</strong> To make it easier to flip through past journal spaces, you can sort your spaces list by date created instead of by most recently updated</p>\n<hr>\n<p><strong>Connect Boxes.</strong> Just like how it works with cards, drag from boxes to create connections to cards, and to other boxes. </p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/connect-boxes.gif\">\n</p>\n<hr>\n<p><strong>Box Expanding.</strong> When you drag cards to the edge of a box, hold, and release, the box will grow to envelop them in it's bosom-y embrace.</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/box-expand.gif\">\n</p>\n<hr>\n<p><strong>Box Shrink.</strong> Double-click on a box resize handle in the bottom right to shrink a box around its contents.</p>\n<hr>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/box-shrink.gif\">\n</p>\n<hr>\n<p><strong>Auto Align Cards Below.</strong> When editing cards, the vertically aligned cards below will automatically adjust positions to stay aligned and prevent overlapping.</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/auto-align-cards-below.gif\">\n</p>\n<hr>\n<p><strong>Surround Selected Cards in Box.</strong> Press <code>B</code> to Surround Selected Cards in a Box [New Quality of Life Feature]</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/shortcut-b.gif\">\n</p>\n<hr>\n<p><strong>Shift-Drag to Snap to Grid.</strong> Hold Shift while dragging or resizing cards and boxes snaps them a grid. Helpful when you want to line things up perfectly – or make your own calendar</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/snap-to-grid-muted.gif\">\n</p>\n<hr>\n<p><strong>Box Focusing.</strong> Keep your focus on a set of cards and tasks by wrapping them in a box and clicking the box filter button to fade everything else out.</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/box-focusing.gif\">\n</p>\n<hr>\n<p><strong>Eiko header font.</strong> An elegant header font for the very finest of spaces.</p>\n<p>\n<img class=\"bulletin-image\" src=\"https://cdn.kinopio.club/vl7Hc74bPcCb7jFm-KIwn/eiko.webp\" alt=\"\" />\n</p>\n<hr>\n<p><strong>Snap Guide Lines.</strong> When <strong>shift-dragging</strong> an item to snap its position to a grid, handy guide lines are to shown to help maintain horizontal or vertical alignment across a long drag distance.</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/snap-guide-lines.gif\">\n</p>\n<hr>\n<p><strong>Momentum Panning.</strong> While holding space or right-click to pan, making quick movements and letting go will momentum scroll the page to make it easier to cover long-distances</p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/momentum-scroll.gif\">\n</p>\n<h2>New Personal Blogposts</h2>\n<p><a href=\"https://pketh.org/plantstudio.html\">Digging Into PlantStudio, a Bit Late</a></p>\n<p>\n  <img class=\"bulletin-image\" src=\"https://kinopio-email.us-east-1.linodeobjects.com/36/plantstudio.webp\">\n</p>\n<p><a href=\"https://pketh.org/towards-a-better-whiteboard.html\">Towards a Better Whiteboard</a></p>\n<p><a href=\"https://pketh.org/open-sourcing-kinopio.html\">Making the Kinopio Source Code Public</a></p>\n<h2>Up Next</h2>\n<p>I’ll be continuing to explore how Kinopio could best be used by teams. This will also involve learning more about how small businesses find and buy software. </p>\n<p>Now that I’m out of the mines, I’ll hopefully be doing a lot more writing too. Including rewriting the help docs, and maybe publishing a user interview or guide.</p>\n<p>Work has already begun on the much anticipated <a href=\"https://forum.kinopio.club/t/planning-card-lists-or-maybe-named-card-stacks/276\">Lists</a>. According to the forums, we’ve been discussing and planning this out since 2021. </p>\n<p>Look forward to a new Producthunt launch, probably to be announced in the next bulletin. Kinopio originally launched as the #1 product of the week, it’d be cool to do that again. (wink).</p>\n<p>And … after i’m finally done writing this bulletin i’m going to clean out my fridge of all the weird foods and strange cheeses bought last month that I know I will never eat again.</p>\n<p>\n<img src=\"https://cdn.kinopio.club/IuL2ghJrWJvhxK21mm1GC/original-2465ebc8353ff261a28a0127d7aa25e4.jpg\" alt=\"\" class=\"small-image bulletin-image\" />\n</p>\n",
-      "date_published": "2025-01-17T00:00:00Z",
-      "summary": "Over the last couple months, I’ve spent more time coding and less time writing.",
-      "image": "https://cdn.kinopio.club/IuL2ghJrWJvhxK21mm1GC/original-2465ebc8353ff261a28a0127d7aa25e4.jpg",
+      "id": "https://blog.kinopio.club/posts/about-page/",
+      "url": "https://blog.kinopio.club/posts/about-page/",
+      "title": "About Page",
+      "content_html": "<p>New visitors to kinopio (and search engine robots) will see a new static <a href=\"https://kinopio.club/about\">About Kinopio</a> page when visiting the site.</p>\n<img src=\"/assets/posts/about-page/hero.webp\" class=\"wide\">\n<p>For everyone else, opening the website, or the app, will open your last space, just like it did before.</p>\n<p>\n<video class=\"\" autoplay loop muted playsinline>\n  <source src=\"/assets/posts/about-page/flowchart.mp4\">\n</video>\n</p>\n<p>Philosophical, this is a big change from the original behaviour of greeting new users directly with the <code>Hello Kinopio</code> space. So I wanted to write a bit here about <em>why</em> and <em>how</em> we did it.</p>\n<p>Radically removing friction by skipping the marketing page helped some people fall in love with the app, but had some issues:</p>\n<ul>\n<li>From a user perspective: people who already understood what Kinopio is, and why they should use it, enjoyed being able to jump right in, but the majority of people had to figure that out while also learning a new interface.</li>\n<li>From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (e.g. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).</li>\n</ul>\n<h1>Technical Details</h1>\n<p>Over the last month, [Lucas] and I re-architected the app to be able to compile static pages that could be crawled by search engines.</p>\n<p>Just like how succinct, clear, writing takes more effort, it took a lot of time to find the right approach that didn’t compromise the clarity of the Vue/Vite codebase.</p>\n<p>We captured our goals and findings in a <a href=\"https://kinopio.club/vike-vue-notes-7k41MNfYhkzbXFUYyul1s\">space</a>,</p>\n<img src=\"/assets/posts/about-page/vite-ssg-space.webp\" class=\"wide\">\n<p>Then we built prototypes using different approaches:</p>\n<ul>\n<li><code>Vike</code>: I sort of got this to work, but hit a brick wall. Vike uses node to compile files (not Vite), and I couldn't register a Pinia plugin (which we need for websocket handling) because those use @alias-ed paths, which are not supported by Vike config files.</li>\n<li><code>Nuxt</code>: basically a replacement for using Vue/Vite directly in favor of a comprehensive and opinionated set of build and debugging tools. Our prototype revealed that this was the least maintainable option because in the Nuxt world breaking API changes are common, and you can’t do small upgrades of internal systems because packages like Vue/Vite are completely subsumed by it. Also while we were evaluating it, the project was acquired by Vercel, which has a history of <a href=\"https://en.wikipedia.org/wiki/Enshittification\">enshittifying</a> projects. I think we dodged a bullet.</li>\n<li><code>Vite-SSG</code> is what we ended up going with. It’s a relatively simple solution designed only for compiling static pages from within our existing Vue/Vite setup.</li>\n</ul>\n<h1>Designing the Marketing Site</h1>\n<p>I have a long history of making marketing pages. Years ago, when I worked at Freshbooks, I coded up the marketing sites for their small business accounting software. These were based on the desktop sized mockups made by their design team. Later on, at FogCreek/Glitch, I designed and built the last versions of their corporate homepage, and did the marketing pages for new products.</p>\n<p>It’s another challenge entirely to build a marketing website for your own product though. Ironically, the more passionate I am about something, the harder it is to explain it to other people.</p>\n<p>The design goals for the Kinopio marketing website were to:</p>\n<ul>\n<li>Communicate <em>what</em> Kinopio is, <em>how</em> to use it, and <em>why</em> I made it, and <em>why</em> you should use it.</li>\n<li>Stand out from the status quo enterprise-oriented <a href=\"https://pketh.org/towards-a-better-whiteboard.html\">software whiteboards</a>, which all look the same, and say the same generic teamwork/productivity things.</li>\n<li>Feel like just another part of the app, using the same colors, typefaces, sizes, and overall feel.</li>\n<li>Show &gt; Tell where possible. While still being understandable to Search Robots.</li>\n<li>Intrigue and reassure just enough to encourage you to click the <code>Open Kinopio</code> button to jump into the app.</li>\n</ul>\n<h1>An Easter Egg in the Intro Video</h1>\n<p>I really wracked my brain on what to show in the intro/hero video at the top of the page. I wanted it to be a video of the real UI in use, rather than something polished but fake created with a professional video editing tool.</p>\n<p>For the video, I recreated the space from the first mockup of Kinopio I ever made:</p>\n<a href=\"https://www.are.na/block/4251114\">\n<img src=\"/assets/posts/about-page/og.webp\" class=\"wide\">\n</a>\n<p>Then it was just a painful process of trial and error to make a series of smooth specific edits.</p>\n<p>\n<video class=\"\" autoplay loop muted playsinline>\n  <source src=\"/assets/posts/about-page/vid.mp4\">\n</video>\n</p>\n<h1>Special Features</h1>\n<p>One of my favorite things about using <code>Vite-SSG</code> is that I can mix in components and features from the real app, like the Apps and Pricing dialogs.</p>\n<p>I especially like how the Explore/Live buttons in the footer <code>shows &gt; tells</code> new users about the awesome Kinopio community way more than words ever could.</p>\n<p>P.S. Toggling dark mode works on the page too.</p>\n<img src=\"/assets/posts/about-page/footer.webp\" class=\"\">\n<hr>\n<p>Anywho, although we’re doing all these technical backflips to reach new people, there’s still nothing better than word of mouth. So if you enjoy using Kinopio, be sure to tell your friends about it!</p>\n",
+      "date_published": "2025-10-14T00:00:00Z",
+      "summary": "New visitors to kinopio (and search engine robots) will see a new static About Kinopio page when visiting the site.",
+      "image": "/assets/posts/about-page/overview.webp",
+      "tags": "New Stuff",
       "_meta": {
-        "image": "https://cdn.kinopio.club/IuL2ghJrWJvhxK21mm1GC/original-2465ebc8353ff261a28a0127d7aa25e4.jpg",
+        "image": "/assets/posts/about-page/overview.webp",
         "video": "",
-        "color": "#e04b29"
+        "color": "#f0dba8"
       }
     }
     ,{
@@ -30,6 +31,7 @@
       "date_published": "2024-09-04T00:00:00Z",
       "summary": "It&#39;s really cool to see people using spaces in ways I never expected.",
       "image": "https://cdn.kinopio.club/PLbO__574kK9BLmSgdizP/IMG-0267.webp",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://cdn.kinopio.club/PLbO__574kK9BLmSgdizP/IMG-0267.webp",
         "video": "",
@@ -44,6 +46,7 @@
       "date_published": "2024-07-08T00:00:00Z",
       "summary": "When a space has too many spectators or collaborators to display comfortably, they&#39;ll nest inside a button",
       "image": "/assets/posts/compact-space-users/compact-space-users-list-thumb.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "/assets/posts/compact-space-users/compact-space-users-list-thumb.webp",
         "video": "",
@@ -58,6 +61,7 @@
       "date_published": "2024-06-27T00:00:00Z",
       "summary": "The kinopio client application code is now open source",
       "image": "https://pketh.org/images/2024/oss/disk2.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://pketh.org/images/2024/oss/disk2.webp",
         "video": "",
@@ -72,6 +76,7 @@
       "date_published": "2024-06-18T00:00:00Z",
       "summary": "Right-click to ping your position to everyone else in a space",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "/assets/posts/collaborator-pings/sonar-ping-thumb.mp4",
@@ -86,6 +91,7 @@
       "date_published": "2024-06-12T00:00:00Z",
       "summary": "Make titles and headlines stand out – or Really stand out",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "/assets/posts/header-font-sizes/header-font-sizes-compressed.mp4",
@@ -100,6 +106,7 @@
       "date_published": "2024-05-20T00:00:00Z",
       "summary": "Change card or box h1/h2 fonts",
       "image": "/assets/posts/header-fonts/thumb.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "/assets/posts/header-fonts/thumb.webp",
         "video": "",
@@ -114,6 +121,7 @@
       "date_published": "2024-05-14T00:00:00Z",
       "summary": "",
       "image": "/assets/posts/early-may-bug-fixes/ig-url-preview-card.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "/assets/posts/early-may-bug-fixes/ig-url-preview-card.webp",
         "video": "",
@@ -128,6 +136,7 @@
       "date_published": "2024-04-30T00:00:00Z",
       "summary": "New journal spaces now start with date images generated each day for you",
       "image": "https://updates.kinopio.club/journal-date-images-thumbnail.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/journal-date-images-thumbnail.webp",
         "video": "",
@@ -142,6 +151,7 @@
       "date_published": "2024-04-26T00:00:00Z",
       "summary": "All the bug fixes and little improvements from the last two weeks",
       "image": "https://updates.kinopio.club/bug-fixes-april.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/bug-fixes-april.webp",
         "video": "",
@@ -156,6 +166,7 @@
       "date_published": "2024-04-21T00:00:00Z",
       "summary": "Explore has a new design with Following and Everyone",
       "image": "https://updates.kinopio.club/following-thumb.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/following-thumb.webp",
         "video": "",
@@ -170,6 +181,7 @@
       "date_published": "2024-04-13T00:00:00Z",
       "summary": "Little quality of life updates for bulk actions on cards and connections",
       "image": "https://updates.kinopio.club/paint-select-card-and-line-options-thumb.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/paint-select-card-and-line-options-thumb.webp",
         "video": "",
@@ -184,6 +196,7 @@
       "date_published": "2024-04-04T00:00:00Z",
       "summary": "Overhauled the server and database to make them substantially faster and more reliable",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://kinopio-blog.us-east-1.linodeobjects.com/anime-tape-reels.mp4",
@@ -198,6 +211,7 @@
       "date_published": "2024-03-20T00:00:00Z",
       "summary": "The latest Kinopio release brings ~33% faster interaction performance",
       "image": "https://updates.kinopio.club/porsche-overhead-small.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/porsche-overhead-small.webp",
         "video": "",
@@ -212,6 +226,7 @@
       "date_published": "2024-03-14T00:00:00Z",
       "summary": "Import and Export spaces in the open JSON Canvas format",
       "image": "https://updates.kinopio.club/import-json-canvas.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/import-json-canvas.webp",
         "video": "",
@@ -226,6 +241,7 @@
       "date_published": "2024-02-23T00:00:00Z",
       "summary": "Angle cards for fun and emphasis by dragging their bottom-left corners",
       "image": "https://updates.kinopio.club/tilt-cards-thumbnail.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/tilt-cards-thumbnail.webp",
         "video": "",
@@ -240,6 +256,7 @@
       "date_published": "2024-02-17T00:00:00Z",
       "summary": "Preview images next to each of your spaces, and community spaces",
       "image": "https://updates.kinopio.club/space-list-previews-thumb.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/space-list-previews-thumb.webp",
         "video": "",
@@ -254,6 +271,7 @@
       "date_published": "2024-01-31T00:00:00Z",
       "summary": "Email space invites out to one or many people at once.",
       "image": "https://kinopio-updates.us-east-1.linodeobjects.com/space-invite-email-thumb.webp",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-updates.us-east-1.linodeobjects.com/space-invite-email-thumb.webp",
         "video": "",
@@ -268,6 +286,7 @@
       "date_published": "2024-01-23T00:00:00Z",
       "summary": "The latest release of Kinopio lets you work offline.",
       "image": "https://pketh.org/images/2024/offline/ss1.png",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://pketh.org/images/2024/offline/ss1.png",
         "video": "",
@@ -282,6 +301,7 @@
       "date_published": "2023-12-30T00:00:00Z",
       "summary": "This year-end bulletin will be a little different. I hope this look forward is interesting.",
       "image": "https://updates.kinopio.club/33-1.webp",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/33-1.webp",
         "video": "",
@@ -296,6 +316,7 @@
       "date_published": "2023-12-05T00:00:00Z",
       "summary": "Reposition connection labels to get them just right",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/linked-space-preview-thumbnail.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/linked-space-preview-thumbnail.webp",
         "video": "",
@@ -310,6 +331,7 @@
       "date_published": "2023-12-01T00:00:00Z",
       "summary": "Reposition connection labels to get them just right",
       "image": "https://updates.kinopio.club/drag-labels-thumbnail1.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/drag-labels-thumbnail1.webp",
         "video": "",
@@ -324,6 +346,7 @@
       "date_published": "2023-11-22T00:00:00Z",
       "summary": "Significantly improved smoothness of card dragging",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/please-wait.webp",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/please-wait.webp",
         "video": "",
@@ -338,6 +361,7 @@
       "date_published": "2023-11-15T00:00:00Z",
       "summary": "So for the last couple months I&#39;ve been experimenting with cross-posting all my social media posts.",
       "image": "https://updates.kinopio.club/wizard-walk.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/wizard-walk.jpeg",
         "video": "",
@@ -352,6 +376,7 @@
       "date_published": "2023-11-10T00:00:00Z",
       "summary": "Generated backgrounds make finding the right vibe a lot easier",
       "image": "https://updates.kinopio.club/generated-background-thumb.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/generated-background-thumb.jpeg",
         "video": "",
@@ -366,6 +391,7 @@
       "date_published": "2023-10-31T00:00:00Z",
       "summary": "Purchase a liftetime plan for $200",
       "image": "https://updates.kinopio.club/sweet.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/sweet.jpeg",
         "video": "",
@@ -380,6 +406,7 @@
       "date_published": "2023-10-23T00:00:00Z",
       "summary": "Save code snippets and give them context",
       "image": "https://updates.kinopio.club/bigger-better-code-blocks-thumb.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/bigger-better-code-blocks-thumb.png",
         "video": "",
@@ -394,6 +421,7 @@
       "date_published": "2023-10-12T00:00:00Z",
       "summary": "Invite someone to view a private space – but not edit it",
       "image": "https://updates.kinopio.club/share-invite-read-only-crop2.png?a=1",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/share-invite-read-only-crop2.png?a=1",
         "video": "",
@@ -408,6 +436,7 @@
       "date_published": "2023-09-20T00:00:00Z",
       "summary": "In the last bulletin, I promised that the next time I wrote you would be when the then-in-progress Kinopio for iOS was out. Well, now it is!",
       "image": "https://updates.kinopio.club/ambassador-space-thumb.png?a=1",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/ambassador-space-thumb.png?a=1",
         "video": "",
@@ -422,6 +451,7 @@
       "date_published": "2023-09-18T00:00:00Z",
       "summary": "Visually untangle busy spaces",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://kinopio-updates.us-east-1.linodeobjects.com/connection-highlighting-thumb.mp4",
@@ -436,6 +466,7 @@
       "date_published": "2023-08-31T00:00:00Z",
       "summary": "Kinopio for iOS is here",
       "image": "https://updates.kinopio.club/ios-app-thumb.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/ios-app-thumb.jpeg",
         "video": "",
@@ -450,6 +481,7 @@
       "date_published": "2023-07-10T00:00:00Z",
       "summary": "Open the sidebar to edit cards like text blocks",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://updates.kinopio.club/card-text-editor-thumb-small.mp4",
@@ -464,6 +496,7 @@
       "date_published": "2023-07-03T00:00:00Z",
       "summary": "When dark mode is enabled, grid backgrounds will display new dark versions",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://kinopio-blog.us-east-1.linodeobjects.com/dark-backgrounds-thumbnail.mp4",
@@ -478,6 +511,7 @@
       "date_published": "2023-07-01T00:00:00Z",
       "summary": "While I was in Bali last month, I had lunch with Lucas and asked if he&#39;d be interested in making a Kinopio iOS app",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/dog-pixel.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/dog-pixel.jpg",
         "video": "",
@@ -492,6 +526,7 @@
       "date_published": "2023-06-23T00:00:00Z",
       "summary": "When viewing a public space, your cursor position and paint strokes are broadcasted to everyone else viewing that space",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/public-presence-painting.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/public-presence-painting.jpeg",
         "video": "",
@@ -506,6 +541,7 @@
       "date_published": "2023-06-22T00:00:00Z",
       "summary": "Bring more of the web into your spaces by pasting in songs, albums, and document links",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/embed-any-site-thumbnail.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/embed-any-site-thumbnail.png",
         "video": "",
@@ -520,6 +556,7 @@
       "date_published": "2023-06-12T00:00:00Z",
       "summary": "Add a numerical count to your cards for voting on ideas, to assign meanings like priority, or just to count things",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://kinopio-blog.us-east-1.linodeobjects.com/card-counter-thumbnail.mp4",
@@ -534,6 +571,7 @@
       "date_published": "2023-06-09T00:00:00Z",
       "summary": "Inspiration and introspective prompts generated each day for your new journal spaces",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/journal-prompt-of-the-day.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/journal-prompt-of-the-day.png",
         "video": "",
@@ -548,6 +586,7 @@
       "date_published": "2023-05-22T00:00:00Z",
       "summary": "Starting a couple weeks ago, I&#39;ve paused making big new features in favor of fixing bugs and polishing details",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/birds-eye-street.png",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/birds-eye-street.png",
         "video": "",
@@ -562,6 +601,7 @@
       "date_published": "2023-05-16T00:00:00Z",
       "summary": "Now every card has it&#39;s own URL that you can share with other people directly",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://updates.kinopio.club/community-backgrounds.mp4",
@@ -576,6 +616,7 @@
       "date_published": "2023-05-16T00:00:00Z",
       "summary": "Now every card has it&#39;s own URL that you can share with other people directly",
       "image": "https://updates.kinopio.club/pretty-invites.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/pretty-invites.png",
         "video": "",
@@ -590,6 +631,7 @@
       "date_published": "2023-04-20T00:00:00Z",
       "summary": "A new editable space that welcomes new users, saying less and showing more",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/hello-thumb6.webp",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/hello-thumb6.webp",
         "video": "",
@@ -604,6 +646,7 @@
       "date_published": "2023-04-10T00:00:00Z",
       "summary": "Painting to select cards, boxes, and connections is faster and more responsive",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://updates.kinopio.club/magic-paint-select-small.mp4",
@@ -618,6 +661,7 @@
       "date_published": "2023-04-01T00:00:00Z",
       "summary": "Starting a couple weeks ago, I&#39;ve paused making big new features in favor of fixing bugs and polishing details",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/shoes-fabric.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/shoes-fabric.jpg",
         "video": "",
@@ -632,6 +676,7 @@
       "date_published": "2023-03-31T00:00:00Z",
       "summary": "Redesigned notifications will let you know when someone likes your spaces and follows you",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/notifications-v2.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/notifications-v2.png",
         "video": "",
@@ -646,6 +691,7 @@
       "date_published": "2023-03-17T00:00:00Z",
       "summary": "When you paste into cards,  URLs are now be hidden by default so that just the preview info displays",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/card-urls-hidden-by-default.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/card-urls-hidden-by-default.png",
         "video": "",
@@ -660,6 +706,7 @@
       "date_published": "2023-03-09T00:00:00Z",
       "summary": "More creative controls to get your cards looking *just* right",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://updates.kinopio.club/transparent-color-slider.mp4",
@@ -674,6 +721,7 @@
       "date_published": "2023-03-06T00:00:00Z",
       "summary": "Forgot which space you put an idea in? Search all spaces for your cards",
       "image": "https://updates.kinopio.club/search-all-spaces-small.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/search-all-spaces-small.png",
         "video": "",
@@ -688,6 +736,7 @@
       "date_published": "2023-03-03T00:00:00Z",
       "summary": "I’ve been thinking for a while about how to grow awareness for Kinopio, and I keep coming back to the same problem",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/28-3.png",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/28-3.png",
         "video": "",
@@ -702,6 +751,7 @@
       "date_published": "2023-02-24T00:00:00Z",
       "summary": "Find the perfect background for the tone of your space",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/search-backgrounds-thumb.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/search-backgrounds-thumb.jpeg",
         "video": "",
@@ -716,6 +766,7 @@
       "date_published": "2023-02-20T00:00:00Z",
       "summary": "When you find something sweet, it&#39;s even sweeter when you share it with a friend",
       "image": "https://updates.kinopio.club/refer-thumb.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/refer-thumb.png",
         "video": "",
@@ -730,6 +781,7 @@
       "date_published": "2023-02-13T00:00:00Z",
       "summary": "Connection lines appear transparent when connected to a comment card",
       "image": "https://updates.kinopio.club/transparent-connections-to-comments-small.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/transparent-connections-to-comments-small.png",
         "video": "",
@@ -744,6 +796,7 @@
       "date_published": "2023-01-30T00:00:00Z",
       "summary": "Looking back over this very long list of changes it feels like I built a whole other app in that time",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/original_4fb0dd85fd78d811605f59798d48eda5.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/original_4fb0dd85fd78d811605f59798d48eda5.jpg",
         "video": "",
@@ -758,6 +811,7 @@
       "date_published": "2023-01-29T00:00:00Z",
       "summary": "The UI for changing space backgrounds has been streamlined to be more direct and intuitive to use",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/streamlined-backgrounds-thumbnail.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/streamlined-backgrounds-thumbnail.png",
         "video": "",
@@ -772,6 +826,7 @@
       "date_published": "2023-01-24T00:00:00Z",
       "summary": "Whether you&#39;re a night owl or into the mysterious and cool, dark mode is here for you",
       "image": "https://updates.kinopio.club/dark-mode-thumb-small.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://updates.kinopio.club/dark-mode-thumb-small.png",
         "video": "",
@@ -786,6 +841,7 @@
       "date_published": "2023-01-20T00:00:00Z",
       "summary": "The perfect frame for your missives and manifestos",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/pen-pals-thumb.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/pen-pals-thumb.png",
         "video": "",
@@ -800,6 +856,7 @@
       "date_published": "2023-01-18T00:00:00Z",
       "summary": "Quickly capture ideas to your inbox with the Kinopio extension for Raycast",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/kinopio-inbox-1.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/kinopio-inbox-1.png",
         "video": "",
@@ -814,6 +871,7 @@
       "date_published": "2023-01-11T00:00:00Z",
       "summary": "Drag boxes close to each other to snap them together",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/box-snapping-thumb2.jpeg",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/box-snapping-thumb2.jpeg",
         "video": "",
@@ -828,6 +886,7 @@
       "date_published": "2023-01-07T00:00:00Z",
       "summary": "Press Z to instantly zoom all the way out or in. A little feature that gives you big perspective",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/z-toggle-zoom-out-thumbnail.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/z-toggle-zoom-out-thumbnail.png",
         "video": "",
@@ -842,6 +901,7 @@
       "date_published": "2023-01-06T00:00:00Z",
       "summary": "The inbox is great for quickly capturing ideas – now it&#39;s just as easy to get those cards out of your inbox and into your current space",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/inbox-cards-list-thumbnail-2.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/inbox-cards-list-thumbnail-2.png",
         "video": "",
@@ -856,6 +916,7 @@
       "date_published": "2023-01-04T00:00:00Z",
       "summary": "If a card is named as a color – like `pink` or `#5e978b` – then it&#39;ll become that color",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/color-swatch-cards-2.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/color-swatch-cards-2.png",
         "video": "",
@@ -870,6 +931,7 @@
       "date_published": "2023-01-03T00:00:00Z",
       "summary": "Share → Present to hide the Kinopio UI and put the focus solely on your content",
       "image": "https://kinopio-blog.us-east-1.linodeobjects.com/presentation-mode-thumbnail.png",
+      "tags": "New Stuff",
       "_meta": {
         "image": "https://kinopio-blog.us-east-1.linodeobjects.com/presentation-mode-thumbnail.png",
         "video": "",
@@ -884,6 +946,7 @@
       "date_published": "2023-01-02T00:00:00Z",
       "summary": "Drag the zoom slider or hold cmd/ctrl while scrolling to zoom out for perspective on large spaces",
       "image": "",
+      "tags": "New Stuff",
       "_meta": {
         "image": "",
         "video": "https://updates.kinopio.club/positional-zoom-thumbnail.mp4",
@@ -898,6 +961,7 @@
       "date_published": "2022-11-14T00:00:00Z",
       "summary": "Many weeks ago, when I still lived in the area, we went to a pottery event in Brooklyn",
       "image": "https://updates.kinopio.club/cup.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/cup.gif",
         "video": "",
@@ -912,6 +976,7 @@
       "date_published": "2022-11-01T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/WvzfgyzBKtiSRl9EHY14T/1431564206268.png",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/WvzfgyzBKtiSRl9EHY14T/1431564206268.png",
         "video": "",
@@ -926,6 +991,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/NsD0a-_W9Fm0efAiN0Wqe/original-d275ff849851d43d1236ce36b6e21944.gif",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/NsD0a-_W9Fm0efAiN0Wqe/original-d275ff849851d43d1236ce36b6e21944.gif",
         "video": "",
@@ -940,6 +1006,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/4beIktLVjg8NZOAAS1c2q/photo-baignade-vilette.jpg",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/4beIktLVjg8NZOAAS1c2q/photo-baignade-vilette.jpg",
         "video": "",
@@ -954,6 +1021,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/w8u3i1DkndBjZK_zTrcMx/original-ec2a9485be78ff188621d5f74b4596e5.gif",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/w8u3i1DkndBjZK_zTrcMx/original-ec2a9485be78ff188621d5f74b4596e5.gif",
         "video": "",
@@ -968,6 +1036,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://d2w9rnfcy7mm78.cloudfront.net/2283407/original_4de889bf96797652afaa51437353d3b9.gif",
+      "tags": "Guides",
       "_meta": {
         "image": "https://d2w9rnfcy7mm78.cloudfront.net/2283407/original_4de889bf96797652afaa51437353d3b9.gif",
         "video": "",
@@ -982,6 +1051,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/je8YRuTxdRCot6P3kdEEE/909B725B-B8D0-4372-B96C-92BB46D1C166.png",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/je8YRuTxdRCot6P3kdEEE/909B725B-B8D0-4372-B96C-92BB46D1C166.png",
         "video": "",
@@ -996,6 +1066,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/lZpAVICJnOqNJ0H_4hNs7/maxresdefault.jpg",
+      "tags": "Guides",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/lZpAVICJnOqNJ0H_4hNs7/maxresdefault.jpg",
         "video": "",
@@ -1010,6 +1081,7 @@
       "date_published": "2022-10-25T00:00:00Z",
       "summary": "I recently watched a short video about an illustrator who lived on a remote island in Maine, where he worked in an old wooden barn",
       "image": "https://updates.kinopio.club/barn.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/barn.jpeg",
         "video": "",
@@ -1024,6 +1096,7 @@
       "date_published": "2022-09-13T00:00:00Z",
       "summary": "I recently got back from a two week trip to France, the first vacation-like thing I’ve had in years. The best thing we ate wasn’t a fancy croissant, or an upscale Parisian dish, but some wild blackberries growing by the side of the road after a short hike",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/fCEgH6uF6g6cYnuZ9PdIs/wildbackberry-01.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/fCEgH6uF6g6cYnuZ9PdIs/wildbackberry-01.jpg",
         "video": "",
@@ -1038,6 +1111,7 @@
       "date_published": "2022-07-12T00:00:00Z",
       "summary": "The Kinopio blog is open for business. Relive memories of email bulletins past, and subscribe for bulletins to come. Possibly other things too",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zmcFSvLiYP8rCm9JqwOMK/garden-800px-1.jpg",
+      "tags": "",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zmcFSvLiYP8rCm9JqwOMK/garden-800px-1.jpg",
         "video": "",
@@ -1052,6 +1126,7 @@
       "date_published": "2022-07-11T00:00:00Z",
       "summary": "The theme of this bulletin is &#39;friendship&#39;. Though I didn&#39;t know it would be when I started writing",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/AM4GZUD6cgssQMLYHhE4m/image.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/AM4GZUD6cgssQMLYHhE4m/image.jpeg",
         "video": "",
@@ -1066,6 +1141,7 @@
       "date_published": "2022-04-25T00:00:00Z",
       "summary": "We&#39;re coming up on the Kinopio&#39;s third birthday, here&#39;s to another year of creative spatial thinking and new connections",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/ZGjGNNlFicYqW70fPNba9/FA60D326-B00F-493C-B971-401E136D7114.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/ZGjGNNlFicYqW70fPNba9/FA60D326-B00F-493C-B971-401E136D7114.jpeg",
         "video": "",
@@ -1080,6 +1156,7 @@
       "date_published": "2022-03-21T00:00:00Z",
       "summary": "As a software maker working by myself, almost all my meetings are between the left and right sides of my brain. I&#39;m pretty good company so I usually don&#39;t mind, but sometimes these pow-wows get nebulously pendulous",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/vdxDMFzwAOuQJHmnpExFL/giphy480p.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/vdxDMFzwAOuQJHmnpExFL/giphy480p.gif",
         "video": "",
@@ -1094,6 +1171,7 @@
       "date_published": "2022-02-09T00:00:00Z",
       "summary": "I’ve noticed that people use Kinopio in two broadly different ways,",
       "image": "https://pketh.org/images/2021/palms.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://pketh.org/images/2021/palms.jpeg",
         "video": "",
@@ -1108,6 +1186,7 @@
       "date_published": "2022-01-03T00:00:00Z",
       "summary": "This is the first bulletin of 2022, so maybe you thought I was going to write something about the new year? No way – I want to talk about the FM tuner on my new radio",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/2YcIM5YPHUSJMCu6eUNdN/original-cba025fb0f0b2ee272ec280c0ff0c301.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/2YcIM5YPHUSJMCu6eUNdN/original-cba025fb0f0b2ee272ec280c0ff0c301.gif",
         "video": "",
@@ -1122,6 +1201,7 @@
       "date_published": "2021-11-22T00:00:00Z",
       "summary": "When I send these bulletin emails I kind of enjoy the out of office auto-responder messages I get back",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/vtS6BrXjmh2WhOHt7NEdF/image.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/vtS6BrXjmh2WhOHt7NEdF/image.gif",
         "video": "",
@@ -1136,6 +1216,7 @@
       "date_published": "2021-10-26T00:00:00Z",
       "summary": "Continuing from the last bulletin, I spent the last couple weeks working on making every interaction, like loading spaces, scrolling, painting, dragging and editing cards 2-5x faster and more responsive",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zBAxRD0Nf9a3Kq5EKUv_d/image.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zBAxRD0Nf9a3Kq5EKUv_d/image.gif",
         "video": "",
@@ -1150,6 +1231,7 @@
       "date_published": "2021-10-04T00:00:00Z",
       "summary": "The goal of these Kinopio bulletins is to be interesting. That usually means talking about some cool new feature or a pop-up shop – but this bulletin has neither.",
       "image": "https://updates.kinopio.club/markdown-headings.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://updates.kinopio.club/markdown-headings.gif",
         "video": "",
@@ -1164,6 +1246,7 @@
       "date_published": "2021-09-13T00:00:00Z",
       "summary": "A couple months ago, I commissioned the Elmer Gomer embroidery company to create 20 Kinopio patches.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/5OsaAaMs7h5HC86xlplCX/front6.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/5OsaAaMs7h5HC86xlplCX/front6.jpeg",
         "video": "",
@@ -1178,6 +1261,7 @@
       "date_published": "2021-08-09T00:00:00Z",
       "summary": "This is my second time launching on Product Hunt. The first time was honestly pretty stressful. But the exposure, support – and eventually new customers – was a much needed help",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/PFUTEPJQGiAfY0Sp1CU4U/original-0ee24c4ce25cf520a1c6b3120906891c.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/PFUTEPJQGiAfY0Sp1CU4U/original-0ee24c4ce25cf520a1c6b3120906891c.jpg",
         "video": "",
@@ -1192,6 +1276,7 @@
       "date_published": "2021-07-25T00:00:00Z",
       "summary": "In theory, every marketing website has the same job, &quot;hey this thing can help you, you should use it&quot;. But writing, designing, and building the new &lt;About Kinopio page really took it out of me.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/9DNJnz13mv9CWvFg1tQFi/seal-1.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/9DNJnz13mv9CWvFg1tQFi/seal-1.jpg",
         "video": "",
@@ -1206,6 +1291,7 @@
       "date_published": "2021-07-05T00:00:00Z",
       "summary": "In the last Bulletin, I asked for your thoughts on how to grow the audience for Kinopio. I was surprised how many responses and helpful ideas I received",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/WWSJm2I9K3W-ed5I2M9ZY/SunsetBlvdTopDown-1024x1024.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/WWSJm2I9K3W-ed5I2M9ZY/SunsetBlvdTopDown-1024x1024.jpg",
         "video": "",
@@ -1220,6 +1306,7 @@
       "date_published": "2021-06-23T00:00:00Z",
       "summary": "It’s a weird feeling to be reunited with all your possessions after having them in storage for ~half a year. “I totally forgot I owned this”, “Huh, what’s this thing?”",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/YmdB_Q4WgAIh6jGPukT6l/desk.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/YmdB_Q4WgAIh6jGPukT6l/desk.jpeg",
         "video": "",
@@ -1234,6 +1321,7 @@
       "date_published": "2021-06-02T00:00:00Z",
       "summary": "Waiting for yet another plane, to yet another location. This time, to New Jersey. Supposedly this is the last move I&#39;ll have to make in a while, but it&#39;s hard for me to believe.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/8xwvOcx4tNbosDVDcFU0B/original-0b58d4b5617f0306892bf6165a6ce518.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/8xwvOcx4tNbosDVDcFU0B/original-0b58d4b5617f0306892bf6165a6ce518.jpg",
         "video": "",
@@ -1248,6 +1336,7 @@
       "date_published": "2021-05-20T00:00:00Z",
       "summary": "Have you ever heard of the Nakagin Capsule Tower?",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/yTIvU8ey_0XfEXhLSwFxu/image.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/yTIvU8ey_0XfEXhLSwFxu/image.jpeg",
         "video": "",
@@ -1262,6 +1351,7 @@
       "date_published": "2021-05-05T00:00:00Z",
       "summary": "This week I started reading ‘Ask Iwata’, a collection of essays by the late/former boss of Nintendo. When I think of CEOs, I picture people who really want to be charismatic visionaries who have all the answers. “Hang on to me, I will fly us to the future”",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/2sjGwYq_IfkpcOvtYAnzC/iu-1.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/2sjGwYq_IfkpcOvtYAnzC/iu-1.jpeg",
         "video": "",
@@ -1276,6 +1366,7 @@
       "date_published": "2021-04-22T00:00:00Z",
       "summary": "This month and next, I&#39;m living in a magical attic in still-sometimes-snowing Windsor, Ontario.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zglDAenUej4FCGvUw06Qe/cat.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/zglDAenUej4FCGvUw06Qe/cat.jpeg",
         "video": "",
@@ -1290,6 +1381,7 @@
       "date_published": "2021-04-09T00:00:00Z",
       "summary": "I got engaged to this cool weirdo (send help)",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/D9us9Cx7bGPQZ4Nsm5RSz/engaged.jpeg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/D9us9Cx7bGPQZ4Nsm5RSz/engaged.jpeg",
         "video": "",
@@ -1304,6 +1396,7 @@
       "date_published": "2021-03-25T00:00:00Z",
       "summary": "Lately, I&#39;ve been thinking about this small farmhouse I found in the woods, surrounded only by acres of empty fields. It&#39;s all boarded up and there are never any snow prints in the ground around it",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/CMSxgF8Nj3IZdR-EZP_VN/original-7b157da1176c9fb697d5cfd3ebabe427.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/CMSxgF8Nj3IZdR-EZP_VN/original-7b157da1176c9fb697d5cfd3ebabe427.jpg",
         "video": "",
@@ -1318,6 +1411,7 @@
       "date_published": "2021-03-10T00:00:00Z",
       "summary": "So I found out that I had an eye infection which was blurring my vision. Yuck, but I&#39;m already healing up.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/u0A08VqqmK6CXPbGdbenX/original-db4687974297da479bfefa315ad6bdb0.png",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/u0A08VqqmK6CXPbGdbenX/original-db4687974297da479bfefa315ad6bdb0.png",
         "video": "",
@@ -1332,6 +1426,7 @@
       "date_published": "2021-02-24T00:00:00Z",
       "summary": "My eyes have been sore lately, so to take a break from screens I dusted off my childhood keyboard, a chunky Yamaha (PSR-510) covered in mysterious and colorful buttons, knobs, and dials.",
       "image": "https://kinopio-email.us-east-1.linodeobjects.com/anime-tea.gif",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-email.us-east-1.linodeobjects.com/anime-tea.gif",
         "video": "",
@@ -1346,6 +1441,7 @@
       "date_published": "2021-02-10T00:00:00Z",
       "summary": "I&#39;m back in Toronto and fortunately I still like snow. I&#39;ve got a new mac and a very suburban winter view. Time for some good typing.",
       "image": "https://kinopio-email.us-east-1.linodeobjects.com/winter-suburb-view.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://kinopio-email.us-east-1.linodeobjects.com/winter-suburb-view.jpg",
         "video": "",
@@ -1360,6 +1456,7 @@
       "date_published": "2021-01-21T00:00:00Z",
       "summary": "Hello from sunny winter San Diego. Although I have to go back to Canada soon... for now though, the moisture, sunlight, and fresh air is really healing me.",
       "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/jEcZxfrM6eLwb32Wi9Nv3/painting.jpg",
+      "tags": "Bulletin",
       "_meta": {
         "image": "https://us-east-1.linodeobjects.com/kinopio-uploads/jEcZxfrM6eLwb32Wi9Nv3/painting.jpg",
         "video": "",

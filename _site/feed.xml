@@ -7,105 +7,67 @@
     <description>What&#39;s new in Kinopio, the thinking tool for building new ideas and solving hard problems</description>
     <language>en</language>
     <item>
-      <title>Bulletin № 36</title>
-      <link>https://blog.kinopio.club/posts/36/</link>
-      <description>&lt;p&gt;Hi friends, &lt;/p&gt;
-&lt;p&gt;I get sick at least twice a year: when the seasons change from fall-to-winter, and from winter-to-spring. I can’t imagine living somewhere without seasons, I’d be invincible. But for now, my nose is still snotty, and I’m hoping this bulletin will be coherent.&lt;/p&gt;
+      <title>About Page</title>
+      <link>https://blog.kinopio.club/posts/about-page/</link>
+      <description>&lt;p&gt;New visitors to kinopio (and search engine robots) will see a new static &lt;a href=&quot;https://kinopio.club/about&quot;&gt;About Kinopio&lt;/a&gt; page when visiting the site.&lt;/p&gt;
+&lt;img src=&quot;https://blog.kinopio.club/assets/posts/about-page/hero.webp&quot; class=&quot;wide&quot; /&gt;
+&lt;p&gt;For everyone else, opening the website, or the app, will open your last space, just like it did before.&lt;/p&gt;
 &lt;p&gt;
-&lt;img src=&quot;https://cdn.kinopio.club/fqoJozHGrobicZe0XUG1e/my-garden.webp&quot; alt=&quot;&quot; class=&quot;bulletin-image&quot; /&gt;
+&lt;video class=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
+  &lt;source src=&quot;https://blog.kinopio.club/assets/posts/about-page/flowchart.mp4&quot; /&gt;
+&lt;/video&gt;
 &lt;/p&gt;
-&lt;p&gt;Over the last couple months, I’ve spent more time coding and less time writing – basically the opposite of what you should do to grow and gain awareness for a new product. &lt;/p&gt;
-&lt;p&gt;Instead, I dug deep into the mines of improving stability, reliability and speed. So now the app is over twice as fast, and uses half as much memory. But software performance is hard to hype, because you feel it more than see it. &lt;/p&gt;
-&lt;p&gt;Maybe more crowd-pleasing is all the New Stuff listed below. Not just things people have asked for, but also what they’re likely to use regularly because it solves recurring problems for them.&lt;/p&gt;
-&lt;p class=&quot;badge info badge-row&quot;&gt;
-  &lt;img class=&quot;small-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/phone-anime.webp&quot; alt=&quot;&quot; /&gt;
-  &lt;span&gt;Relatedly, if you use Kinopio for work I’d love to know what kinds of tasks you use it for, and what you find most helpful about it. (You can reply to this email)&lt;/span&gt;
-&lt;/p&gt;
-&lt;h2&gt;What’s New&lt;/h2&gt;
-&lt;p&gt;Details on new features and bug fixes have been moved from the &lt;a href=&quot;https://blog.kinopio.club/&quot;&gt;blog&lt;/a&gt; to the &lt;a href=&quot;https://kinopio.club/changelog&quot;&gt;Changelog space&lt;/a&gt;. Adding cards is way easier than blog posts. The space is also easier to skim through, has more personality, and lets you add comment cards. &lt;/p&gt;
-&lt;p&gt;You can follow the Changelog, by ♥ing the space to get email notifications when new cards are added, or subscribe to the &lt;a href=&quot;https://api.kinopio.club/space/6lsytK8ZfOtMl2oqG05Rj/feed.json&quot;&gt;RSS Feed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Philosophical, this is a big change from the original behaviour of greeting new users directly with the &lt;code&gt;Hello Kinopio&lt;/code&gt; space. So I wanted to write a bit here about &lt;em&gt;why&lt;/em&gt; and &lt;em&gt;how&lt;/em&gt; we did it.&lt;/p&gt;
+&lt;p&gt;Radically removing friction by skipping the marketing page helped some people fall in love with the app, but had some issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From a user perspective: people who already understood what Kinopio is, and why they should use it, enjoyed being able to jump right in, but the majority of people had to figure that out while also learning a new interface.&lt;/li&gt;
+&lt;li&gt;From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (e.g. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Technical Details&lt;/h1&gt;
+&lt;p&gt;Over the last month, [Lucas] and I re-architected the app to be able to compile static pages that could be crawled by search engines.&lt;/p&gt;
+&lt;p&gt;Just like how succinct, clear, writing takes more effort, it took a lot of time to find the right approach that didn’t compromise the clarity of the Vue/Vite codebase.&lt;/p&gt;
+&lt;p&gt;We captured our goals and findings in a &lt;a href=&quot;https://kinopio.club/vike-vue-notes-7k41MNfYhkzbXFUYyul1s&quot;&gt;space&lt;/a&gt;,&lt;/p&gt;
+&lt;img src=&quot;https://blog.kinopio.club/assets/posts/about-page/vite-ssg-space.webp&quot; class=&quot;wide&quot; /&gt;
+&lt;p&gt;Then we built prototypes using different approaches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Vike&lt;/code&gt;: I sort of got this to work, but hit a brick wall. Vike uses node to compile files (not Vite), and I couldn&#39;t register a Pinia plugin (which we need for websocket handling) because those use @alias-ed paths, which are not supported by Vike config files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Nuxt&lt;/code&gt;: basically a replacement for using Vue/Vite directly in favor of a comprehensive and opinionated set of build and debugging tools. Our prototype revealed that this was the least maintainable option because in the Nuxt world breaking API changes are common, and you can’t do small upgrades of internal systems because packages like Vue/Vite are completely subsumed by it. Also while we were evaluating it, the project was acquired by Vercel, which has a history of &lt;a href=&quot;https://en.wikipedia.org/wiki/Enshittification&quot;&gt;enshittifying&lt;/a&gt; projects. I think we dodged a bullet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Vite-SSG&lt;/code&gt; is what we ended up going with. It’s a relatively simple solution designed only for compiling static pages from within our existing Vue/Vite setup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Designing the Marketing Site&lt;/h1&gt;
+&lt;p&gt;I have a long history of making marketing pages. Years ago, when I worked at Freshbooks, I coded up the marketing sites for their small business accounting software. These were based on the desktop sized mockups made by their design team. Later on, at FogCreek/Glitch, I designed and built the last versions of their corporate homepage, and did the marketing pages for new products.&lt;/p&gt;
+&lt;p&gt;It’s another challenge entirely to build a marketing website for your own product though. Ironically, the more passionate I am about something, the harder it is to explain it to other people.&lt;/p&gt;
+&lt;p&gt;The design goals for the Kinopio marketing website were to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Communicate &lt;em&gt;what&lt;/em&gt; Kinopio is, &lt;em&gt;how&lt;/em&gt; to use it, and &lt;em&gt;why&lt;/em&gt; I made it, and &lt;em&gt;why&lt;/em&gt; you should use it.&lt;/li&gt;
+&lt;li&gt;Stand out from the status quo enterprise-oriented &lt;a href=&quot;https://pketh.org/towards-a-better-whiteboard.html&quot;&gt;software whiteboards&lt;/a&gt;, which all look the same, and say the same generic teamwork/productivity things.&lt;/li&gt;
+&lt;li&gt;Feel like just another part of the app, using the same colors, typefaces, sizes, and overall feel.&lt;/li&gt;
+&lt;li&gt;Show &amp;gt; Tell where possible. While still being understandable to Search Robots.&lt;/li&gt;
+&lt;li&gt;Intrigue and reassure just enough to encourage you to click the &lt;code&gt;Open Kinopio&lt;/code&gt; button to jump into the app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;An Easter Egg in the Intro Video&lt;/h1&gt;
+&lt;p&gt;I really wracked my brain on what to show in the intro/hero video at the top of the page. I wanted it to be a video of the real UI in use, rather than something polished but fake created with a professional video editing tool.&lt;/p&gt;
+&lt;p&gt;For the video, I recreated the space from the first mockup of Kinopio I ever made:&lt;/p&gt;
+&lt;a href=&quot;https://www.are.na/block/4251114&quot;&gt;
+&lt;img src=&quot;https://blog.kinopio.club/assets/posts/about-page/og.webp&quot; class=&quot;wide&quot; /&gt;
+&lt;/a&gt;
+&lt;p&gt;Then it was just a painful process of trial and error to make a series of smooth specific edits.&lt;/p&gt;
 &lt;p&gt;
-&lt;img class=&quot;small-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/changelog.gif&quot; alt=&quot;&quot; /&gt;
+&lt;video class=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
+  &lt;source src=&quot;https://blog.kinopio.club/assets/posts/about-page/vid.mp4&quot; /&gt;
+&lt;/video&gt;
 &lt;/p&gt;
-&lt;p class=&quot;badge secondary&quot;&gt;(Even after leaving a lot out, this is going to be a long list of New Stuff)&lt;/p&gt;
+&lt;h1&gt;Special Features&lt;/h1&gt;
+&lt;p&gt;One of my favorite things about using &lt;code&gt;Vite-SSG&lt;/code&gt; is that I can mix in components and features from the real app, like the Apps and Pricing dialogs.&lt;/p&gt;
+&lt;p&gt;I especially like how the Explore/Live buttons in the footer &lt;code&gt;shows &amp;gt; tells&lt;/code&gt; new users about the awesome Kinopio community way more than words ever could.&lt;/p&gt;
+&lt;p&gt;P.S. Toggling dark mode works on the page too.&lt;/p&gt;
+&lt;img src=&quot;https://blog.kinopio.club/assets/posts/about-page/footer.webp&quot; class=&quot;&quot; /&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Groups&lt;/strong&gt;. Keep spaces together and share them with the same set of people. Each Group member can see and edit all of the spaces in a Group. Use Groups for projects, teams, or like personal folders – it&#39;s really up to you.&lt;/p&gt;
-&lt;p&gt;
-&lt;img class=&quot;bulletin-image&quot; src=&quot;https://cdn.kinopio.club/DRcBPD9cSslJLY6QOUfYx/group-overview.webp&quot; alt=&quot;&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sort Spaces By Created At.&lt;/strong&gt; To make it easier to flip through past journal spaces, you can sort your spaces list by date created instead of by most recently updated&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Connect Boxes.&lt;/strong&gt; Just like how it works with cards, drag from boxes to create connections to cards, and to other boxes. &lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/connect-boxes.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Box Expanding.&lt;/strong&gt; When you drag cards to the edge of a box, hold, and release, the box will grow to envelop them in it&#39;s bosom-y embrace.&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-expand.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Box Shrink.&lt;/strong&gt; Double-click on a box resize handle in the bottom right to shrink a box around its contents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-shrink.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Auto Align Cards Below.&lt;/strong&gt; When editing cards, the vertically aligned cards below will automatically adjust positions to stay aligned and prevent overlapping.&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/auto-align-cards-below.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Surround Selected Cards in Box.&lt;/strong&gt; Press &lt;code&gt;B&lt;/code&gt; to Surround Selected Cards in a Box [New Quality of Life Feature]&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/shortcut-b.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Shift-Drag to Snap to Grid.&lt;/strong&gt; Hold Shift while dragging or resizing cards and boxes snaps them a grid. Helpful when you want to line things up perfectly – or make your own calendar&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/snap-to-grid-muted.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Box Focusing.&lt;/strong&gt; Keep your focus on a set of cards and tasks by wrapping them in a box and clicking the box filter button to fade everything else out.&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/box-focusing.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Eiko header font.&lt;/strong&gt; An elegant header font for the very finest of spaces.&lt;/p&gt;
-&lt;p&gt;
-&lt;img class=&quot;bulletin-image&quot; src=&quot;https://cdn.kinopio.club/vl7Hc74bPcCb7jFm-KIwn/eiko.webp&quot; alt=&quot;&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Snap Guide Lines.&lt;/strong&gt; When &lt;strong&gt;shift-dragging&lt;/strong&gt; an item to snap its position to a grid, handy guide lines are to shown to help maintain horizontal or vertical alignment across a long drag distance.&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/snap-guide-lines.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Momentum Panning.&lt;/strong&gt; While holding space or right-click to pan, making quick movements and letting go will momentum scroll the page to make it easier to cover long-distances&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/momentum-scroll.gif&quot; /&gt;
-&lt;/p&gt;
-&lt;h2&gt;New Personal Blogposts&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://pketh.org/plantstudio.html&quot;&gt;Digging Into PlantStudio, a Bit Late&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-  &lt;img class=&quot;bulletin-image&quot; src=&quot;https://kinopio-email.us-east-1.linodeobjects.com/36/plantstudio.webp&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pketh.org/towards-a-better-whiteboard.html&quot;&gt;Towards a Better Whiteboard&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pketh.org/open-sourcing-kinopio.html&quot;&gt;Making the Kinopio Source Code Public&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Up Next&lt;/h2&gt;
-&lt;p&gt;I’ll be continuing to explore how Kinopio could best be used by teams. This will also involve learning more about how small businesses find and buy software. &lt;/p&gt;
-&lt;p&gt;Now that I’m out of the mines, I’ll hopefully be doing a lot more writing too. Including rewriting the help docs, and maybe publishing a user interview or guide.&lt;/p&gt;
-&lt;p&gt;Work has already begun on the much anticipated &lt;a href=&quot;https://forum.kinopio.club/t/planning-card-lists-or-maybe-named-card-stacks/276&quot;&gt;Lists&lt;/a&gt;. According to the forums, we’ve been discussing and planning this out since 2021. &lt;/p&gt;
-&lt;p&gt;Look forward to a new Producthunt launch, probably to be announced in the next bulletin. Kinopio originally launched as the #1 product of the week, it’d be cool to do that again. (wink).&lt;/p&gt;
-&lt;p&gt;And … after i’m finally done writing this bulletin i’m going to clean out my fridge of all the weird foods and strange cheeses bought last month that I know I will never eat again.&lt;/p&gt;
-&lt;p&gt;
-&lt;img src=&quot;https://cdn.kinopio.club/IuL2ghJrWJvhxK21mm1GC/original-2465ebc8353ff261a28a0127d7aa25e4.jpg&quot; alt=&quot;&quot; class=&quot;small-image bulletin-image&quot; /&gt;
-&lt;/p&gt;
+&lt;p&gt;Anywho, although we’re doing all these technical backflips to reach new people, there’s still nothing better than word of mouth. So if you enjoy using Kinopio, be sure to tell your friends about it!&lt;/p&gt;
 </description>
-      <pubDate>Thu, 16 Jan 2025 19:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Oct 2025 20:00:00 +0000</pubDate>
       <dc:creator>Pirijan</dc:creator>
-      <guid>https://blog.kinopio.club/posts/36/</guid>
+      <guid>https://blog.kinopio.club/posts/about-page/</guid>
     </item>
     <item>
       <title>Bulletin № 35</title>
