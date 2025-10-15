@@ -30,7 +30,7 @@ Philosophical, this is a big change from the original behaviour of greeting new 
 Radically removing friction by skipping the marketing page helped some people fall in love with the app, but had some issues:
 
 - From a user perspective: people who already understood what Kinopio is, and why they should use it, enjoyed being able to jump right in, but the majority of people had to figure that out while also learning a new interface.
-- From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (e.g. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).
+- From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (i.e. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).
 
 # Technical Details
 
