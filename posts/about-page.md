@@ -34,7 +34,7 @@ Radically removing friction by skipping the marketing page helped some people fa
 
 # Technical Details
 
-Over the last month, [Lucas] and I re-architected the app to be able to compile static pages that could be crawled by search engines.
+Over the last month, [Lucas](https://lucas.love) and I re-architected the app to be able to compile static pages that could be crawled by search engines.
 
 Just like how succinct, clear, writing takes more effort, it took a lot of time to find the right approach that didn’t compromise the clarity of the Vue/Vite codebase.
 
