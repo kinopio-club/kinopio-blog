@@ -431,7 +431,7 @@ article video {
 article img.wide,
 article video.wide {
   width: 700px;
-  max-width: 700px;
+  max-width: 100%;
 }
 article img.narrow,
 article video.narrow {

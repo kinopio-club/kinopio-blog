@@ -21,10 +21,10 @@
 &lt;p&gt;Radically removing friction by skipping the marketing page helped some people fall in love with the app, but had some issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;From a user perspective: people who already understood what Kinopio is, and why they should use it, enjoyed being able to jump right in, but the majority of people had to figure that out while also learning a new interface.&lt;/li&gt;
-&lt;li&gt;From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (e.g. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).&lt;/li&gt;
+&lt;li&gt;From a sustainable biz perspective, Kinopio’s biggest challenge is reaching new users (i.e. distribution). Google Search rarely shows Kinopio to people looking for whiteboarding, mind-mapping etc. because its crawlers can’t understand spaces (which are dynamically generated).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Technical Details&lt;/h1&gt;
-&lt;p&gt;Over the last month, [Lucas] and I re-architected the app to be able to compile static pages that could be crawled by search engines.&lt;/p&gt;
+&lt;p&gt;Over the last month, &lt;a href=&quot;https://lucas.love/&quot;&gt;Lucas&lt;/a&gt; and I re-architected the app to be able to compile static pages that could be crawled by search engines.&lt;/p&gt;
 &lt;p&gt;Just like how succinct, clear, writing takes more effort, it took a lot of time to find the right approach that didn’t compromise the clarity of the Vue/Vite codebase.&lt;/p&gt;
 &lt;p&gt;We captured our goals and findings in a &lt;a href=&quot;https://kinopio.club/vike-vue-notes-7k41MNfYhkzbXFUYyul1s&quot;&gt;space&lt;/a&gt;,&lt;/p&gt;
 &lt;img src=&quot;https://blog.kinopio.club/assets/posts/about-page/vite-ssg-space.webp&quot; class=&quot;wide&quot; /&gt;
