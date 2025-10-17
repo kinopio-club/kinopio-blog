@@ -8,16 +8,17 @@
 
 ## Setup
 
-    $ npm install
+    npm install
 
 ## Run
 
-    $ npm run dev
+    npm use 22
+    npm run dev
     http://localhost:8082
 
 ## If updating `styles.styl`, then also run
 
-    $ npm run styles
+    npm run styles
 
 ## Create a New Post
 
