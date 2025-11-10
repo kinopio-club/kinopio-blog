@@ -15,12 +15,13 @@ export default function(config) {
   });
   
   config.addCollection("sitemap", (collectionApi) => {
-    return collectionApi
-      .getAll()
-      .map((item, index, all) => {
-        item.url = "/blog" + item.url;
-        return item;
-      });
+    return collectionApi.getAll().map((item, index, all) => {
+       return {
+         url: "/blog" + item.url,
+         date: item.date,
+         data: item.data
+       };
+     });
   });
   config.setQuietMode(true)
 }
