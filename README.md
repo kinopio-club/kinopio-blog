@@ -18,6 +18,8 @@
 
 ## If updating `styles.styl`, then also run
 
+You might also need to do this if styles.css fails to load
+
     npm run styles
 
 ## Create a New Post
