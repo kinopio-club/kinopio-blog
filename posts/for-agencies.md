@@ -3,14 +3,10 @@ title: 'Case Study: Kinopio for Agencies'
 metaDate: 'Dec 10, 2025'
 date: 2025-12-10
 tags: ["New Stuff", "Case Studies"]
-
 color: '#f4cc57'
-
 image: '/assets/posts/for-agencies/img4.jpg'
-
 description: It totally made my day when I received this email from an SEO agency in London.
 ---
-
 
 Reading comments from happy users is so much more fulfilling for me than any amount of social media likes. So it totally made my day when I received this email from Deepak at [Pearl Lemon](https://pearllemon.com/), an SEO agency in London.
 
