@@ -4,7 +4,7 @@
 
 <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/oQnsH9Hb4a6BqA-FbY1M5/front6.webp" width="200">
 
-[blog.kinopio.club](https://blog.kinopio.club)
+[kinopio.club/blog](https://kinopio.club/blog)
 
 ## Setup
 
