@@ -17,6 +17,10 @@ html(lang="en")
 
     link(rel="stylesheet" href="/styles/styles.css")
 
+    if schema
+      each s in schema
+        script(type="application/ld+json")!= JSON.stringify(s)
+
     //- rss
     link(rel="alternate" type="application/rss+xml" href="/feed.xml")
     link(rel="alternate" type="application/rss+json" href="/feed.json")
