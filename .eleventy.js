@@ -2,6 +2,7 @@ import { HtmlBasePlugin } from "@11ty/eleventy";
 import pugPlugin from "@11ty/eleventy-plugin-pug";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import sitemap from "@quasibit/eleventy-plugin-sitemap";
+import schema from "@quasibit/eleventy-plugin-schema";
 
 export default function(config) {
   config.addPassthroughCopy("./assets")
@@ -13,6 +14,7 @@ export default function(config) {
         hostname: "https://kinopio.club",
       },
   });
+  config.addPlugin(schema);
   
   config.addCollection("sitemap", (collectionApi) => {
     return collectionApi.getAll().map((item, index, all) => {
