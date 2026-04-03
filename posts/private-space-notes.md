@@ -48,7 +48,7 @@ Hiding UI that you don't need for the task can certainly be a good thing. But wr
 
 ## Notes as a Collaboration Scratchpad
 
-While collaborating, Kinopio shows what you're typing while you're typing it. Some might find this intimidating if they haven't really yet solidified their ideas, thoughts, or feelings. Because space notes are only visible to you, you can use this area as a little scratchpad to draft your cards before pasting them in.
+While collaborating, Kinopio shows what you're typing as you're typing it. Some might find this intimidating if they haven't really yet solidified an idea. Because space notes are only visible to you, you can use this area as a little scratchpad to draft your cards before pasting them in.
 
 
 
