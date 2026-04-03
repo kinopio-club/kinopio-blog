@@ -1,7 +1,7 @@
 ---
 title: 'Private Space Notes'
 metaDate: 'Apr 3, 2026'
-date: 2026-04-04
+date: 2026-04-03
 tags: ['New Stuff']
 color: '#aec4a5'
 
